@@ -1,2913 +1,3065 @@
-# Guía de Estudio — 90 sesiones
+# Guía de estudio — 90 sesiones
 
-Este manual conserva la secuencia, los objetivos, las herramientas, los recursos, las prácticas y las evidencias del archivo fuente `curriculum/session-plan.md`. La práctica se realiza en datos sintéticos y entornos propios o autorizados. La fuente no define un glosario independiente por sesión; por ello, los conceptos clave se presentan como términos operativos derivados del objetivo y de las herramientas de cada sesión.
+Esta guía desarrolla las 90 sesiones respetando el orden y el contenido operativo de `curriculum/session-plan.md`. Los objetivos, herramientas, recursos, prácticas y evidencias se mantienen vinculados a esa fuente. Cada sesión conserva los 90 minutos curriculares: 10 min de recuperación, 20 min de explicación, 35 min de práctica guiada, 15 min de ejercicio individual y 10 min para evidencia/reflexión. El ejercicio individual es una transferencia breve de la práctica del día, no una tarea adicional. Cuando el plan fuente no especifica un recurso, la guía lo indica en lugar de inventarlo. Trabaja solo con datos sintéticos y entornos propios o autorizados.
 
 ---
 
 # Día 01 — Cliente, servidor, solicitud, respuesta y ciclo HTTP
 
-**🎯 Objetivo:** Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP.
+**Objetivo de aprendizaje:** Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP.
 
-**📚 Teoría:** [MDN: Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+**Teoría y recurso:** [MDN: Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Anotar una solicitud/respuesta ficticia.
-2. separar método, ruta, cabeceras, estado y cuerpo.
+Anotar una solicitud/respuesta ficticia; separar método, ruta, cabeceras, estado y cuerpo.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** Diagrama del ciclo y glosario de 8 términos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Anotar una solicitud/respuesta ficticia; separar método, ruta, cabeceras, estado y cuerpo.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama del ciclo y glosario de 8 términos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 01 (Cliente, servidor, solicitud, respuesta y ciclo HTTP). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Anotar una solicitud/respuesta ficticia; separar método, ruta, cabeceras, estado y cuerpo. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama del ciclo y glosario de 8 términos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 01](evaluaciones.md#evaluación-día-01)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama del ciclo y glosario de 8 términos.
+> Actúa como mi tutor técnico para el Día 01. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP. La práctica es: Anotar una solicitud/respuesta ficticia; separar método, ruta, cabeceras, estado y cuerpo. La evidencia que debo producir es: Diagrama del ciclo y glosario de 8 términos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 01](evaluaciones.md#evaluación-día-01).
 
 ---
 
 # Día 02 — Métodos, códigos de estado y cabeceras frecuentes
 
-**🎯 Objetivo:** Interpretar métodos, códigos de estado y cabeceras frecuentes.
+**Objetivo de aprendizaje:** Interpretar métodos, códigos de estado y cabeceras frecuentes.
 
-**📚 Teoría:** [MDN: HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods), [status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+**Teoría y recurso:** [MDN: HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods), [status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Clasificar ejemplos GET/POST y estados 200, 301, 400, 401, 403, 404, 429 y 500.
+Clasificar ejemplos GET/POST y estados 200, 301, 400, 401, 403, 404, 429 y 500.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Interpretar métodos, códigos de estado y cabeceras frecuentes.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** Tabla método/estado/cabecera y cuándo aplican.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Interpretar métodos, códigos de estado y cabeceras frecuentes.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Clasificar ejemplos GET/POST y estados 200, 301, 400, 401, 403, 404, 429 y 500.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla método/estado/cabecera y cuándo aplican.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 02 (Métodos, códigos de estado y cabeceras frecuentes). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Clasificar ejemplos GET/POST y estados 200, 301, 400, 401, 403, 404, 429 y 500. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla método/estado/cabecera y cuándo aplican.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 02](evaluaciones.md#evaluación-día-02)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla método/estado/cabecera y cuándo aplican.
+> Actúa como mi tutor técnico para el Día 02. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Interpretar métodos, códigos de estado y cabeceras frecuentes. La práctica es: Clasificar ejemplos GET/POST y estados 200, 301, 400, 401, 403, 404, 429 y 500. La evidencia que debo producir es: Tabla método/estado/cabecera y cuándo aplican. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 02](evaluaciones.md#evaluación-día-02).
 
 ---
 
 # Día 03 — DNS y el recorrido básico de una solicitud web
 
-**🎯 Objetivo:** Explicar DNS y el recorrido básico de una solicitud web.
+**Objetivo de aprendizaje:** Explicar DNS y el recorrido básico de una solicitud web.
 
-**📚 Teoría:** [Cloudflare: What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/), [MDN: How the Web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/How_the_web_works)
+**Teoría y recurso:** [Cloudflare: What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/), [MDN: How the Web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/How_the_web_works)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Seguir un caso ficticio: nombre de dominio, resolución DNS, conexión, solicitud HTTP y respuesta.
-2. distinguir DNS de HTTP.
+Seguir un caso ficticio: nombre de dominio, resolución DNS, conexión, solicitud HTTP y respuesta; distinguir DNS de HTTP.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Explicar DNS y el recorrido básico de una solicitud web.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** Diagrama del recorrido y glosario de DNS, IP, dominio, puerto y protocolo.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Explicar DNS y el recorrido básico de una solicitud web.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Seguir un caso ficticio: nombre de dominio, resolución DNS, conexión, solicitud HTTP y respuesta; distinguir DNS de HTTP.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama del recorrido y glosario de DNS, IP, dominio, puerto y protocolo.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 03 (DNS y el recorrido básico de una solicitud web). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Seguir un caso ficticio: nombre de dominio, resolución DNS, conexión, solicitud HTTP y respuesta; distinguir DNS de HTTP. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama del recorrido y glosario de DNS, IP, dominio, puerto y protocolo.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 03](evaluaciones.md#evaluación-día-03)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama del recorrido y glosario de DNS, IP, dominio, puerto y protocolo.
+> Actúa como mi tutor técnico para el Día 03. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Explicar DNS y el recorrido básico de una solicitud web. La práctica es: Seguir un caso ficticio: nombre de dominio, resolución DNS, conexión, solicitud HTTP y respuesta; distinguir DNS de HTTP. La evidencia que debo producir es: Diagrama del recorrido y glosario de DNS, IP, dominio, puerto y protocolo. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 03](evaluaciones.md#evaluación-día-03).
 
 ---
 
 # Día 04 — Identificación, autenticación y autorización
 
-**🎯 Objetivo:** Diferenciar identificación, autenticación y autorización.
+**Objetivo de aprendizaje:** Diferenciar identificación, autenticación y autorización.
 
-**📚 Teoría:** [Microsoft: Authentication vs. authorization](https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization)
+**Teoría y recurso:** [Microsoft: Authentication vs. authorization](https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Clasificar escenarios ficticios de inicio de sesión, permisos y denegación.
-2. identificar qué evidencia permite concluir cada caso.
+Clasificar escenarios ficticios de inicio de sesión, permisos y denegación; identificar qué evidencia permite concluir cada caso.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Diferenciar identificación, autenticación y autorización.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** Tabla identidad/autenticación/autorización y ejemplos 401/403.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Diferenciar identificación, autenticación y autorización.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Clasificar escenarios ficticios de inicio de sesión, permisos y denegación; identificar qué evidencia permite concluir cada caso.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla identidad/autenticación/autorización y ejemplos 401/403.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 04 (Identificación, autenticación y autorización). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Clasificar escenarios ficticios de inicio de sesión, permisos y denegación; identificar qué evidencia permite concluir cada caso. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla identidad/autenticación/autorización y ejemplos 401/403.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 04](evaluaciones.md#evaluación-día-04)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla identidad/autenticación/autorización y ejemplos 401/403.
+> Actúa como mi tutor técnico para el Día 04. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Diferenciar identificación, autenticación y autorización. La práctica es: Clasificar escenarios ficticios de inicio de sesión, permisos y denegación; identificar qué evidencia permite concluir cada caso. La evidencia que debo producir es: Tabla identidad/autenticación/autorización y ejemplos 401/403. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 04](evaluaciones.md#evaluación-día-04).
 
 ---
 
 # Día 05 — Cookies, sesiones y autenticación en HTTP
 
-**🎯 Objetivo:** Diferenciar cookies, sesiones y autenticación en HTTP.
+**Objetivo de aprendizaje:** Diferenciar cookies, sesiones y autenticación en HTTP.
 
-**📚 Teoría:** [MDN: HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+**Teoría y recurso:** [MDN: HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Analizar ejemplos ficticios de Secure, HttpOnly, SameSite, expiración y sesión.
-2. identificar riesgos de exposición y límites de una cookie.
+Analizar ejemplos ficticios de Secure, HttpOnly, SameSite, expiración y sesión; identificar riesgos de exposición y límites de una cookie.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Diferenciar cookies, sesiones y autenticación en HTTP.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** Ficha comparativa y lista de datos que nunca deben compartirse.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Diferenciar cookies, sesiones y autenticación en HTTP.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Analizar ejemplos ficticios de Secure, HttpOnly, SameSite, expiración y sesión; identificar riesgos de exposición y límites de una cookie.
+- Puedes justificar la evidencia que guardas y qué demuestra: Ficha comparativa y lista de datos que nunca deben compartirse.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 05 (Cookies, sesiones y autenticación en HTTP). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Analizar ejemplos ficticios de Secure, HttpOnly, SameSite, expiración y sesión; identificar riesgos de exposición y límites de una cookie. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Ficha comparativa y lista de datos que nunca deben compartirse.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 05](evaluaciones.md#evaluación-día-05)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Ficha comparativa y lista de datos que nunca deben compartirse.
+> Actúa como mi tutor técnico para el Día 05. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Diferenciar cookies, sesiones y autenticación en HTTP. La práctica es: Analizar ejemplos ficticios de Secure, HttpOnly, SameSite, expiración y sesión; identificar riesgos de exposición y límites de una cookie. La evidencia que debo producir es: Ficha comparativa y lista de datos que nunca deben compartirse. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 05](evaluaciones.md#evaluación-día-05).
 
 ---
 
 # Día 06 — JSON y HTML como formatos de respuesta
 
-**🎯 Objetivo:** Reconocer JSON y HTML como formatos de respuesta.
+**Objetivo de aprendizaje:** Reconocer JSON y HTML como formatos de respuesta.
 
-**📚 Teoría:** [MDN: JSON](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+**Teoría y recurso:** [MDN: JSON](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Inspeccionar respuestas sintéticas.
-2. validar estructura, tipos, campos ausentes y diferencia entre contenido y metadatos.
+Inspeccionar respuestas sintéticas; validar estructura, tipos, campos ausentes y diferencia entre contenido y metadatos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Reconocer JSON y HTML como formatos de respuesta.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** JSON anotado y checklist de validación.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Reconocer JSON y HTML como formatos de respuesta.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Inspeccionar respuestas sintéticas; validar estructura, tipos, campos ausentes y diferencia entre contenido y metadatos.
+- Puedes justificar la evidencia que guardas y qué demuestra: JSON anotado y checklist de validación.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 06 (JSON y HTML como formatos de respuesta). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Inspeccionar respuestas sintéticas; validar estructura, tipos, campos ausentes y diferencia entre contenido y metadatos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** JSON anotado y checklist de validación.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 06](evaluaciones.md#evaluación-día-06)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: JSON anotado y checklist de validación.
+> Actúa como mi tutor técnico para el Día 06. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Reconocer JSON y HTML como formatos de respuesta. La práctica es: Inspeccionar respuestas sintéticas; validar estructura, tipos, campos ausentes y diferencia entre contenido y metadatos. La evidencia que debo producir es: JSON anotado y checklist de validación. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 06](evaluaciones.md#evaluación-día-06).
 
 ---
 
 # Día 07 — Tráfico web normal con DevTools y sintetizar la fase
 
-**🎯 Objetivo:** Inspeccionar tráfico web normal con DevTools y sintetizar la fase.
+**Objetivo de aprendizaje:** Inspeccionar tráfico web normal con DevTools y sintetizar la fase.
 
-**📚 Teoría:** [Chrome DevTools: Network](https://developer.chrome.com/docs/devtools/network/), [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+**Teoría y recurso:** [Chrome DevTools: Network](https://developer.chrome.com/docs/devtools/network/), [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
 
-Herramientas: Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
+**Práctica guiada (35 min):**
 
-1. Inspeccionar una página propia o demo permitida.
-2. describir DNS (si está disponible), solicitud, respuesta y estado sin copiar cookies/tokens.
-3. resolver caso con 200/401/403/404/429/500.
+Inspeccionar una página propia o demo permitida; describir DNS (si está disponible), solicitud, respuesta y estado sin copiar cookies/tokens; resolver caso con 200/401/403/404/429/500.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Inspeccionar tráfico web normal con DevTools y sintetizar la fase.
-- **Herramientas:** Navegador web (Chrome o Firefox) + DevTools; editor de texto gratuito
-- **Evidencia verificable:** Captura saneada o tabla, diagrama de recorrido y miniinforme con límites de conclusión.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Inspeccionar tráfico web normal con DevTools y sintetizar la fase.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Inspeccionar una página propia o demo permitida; describir DNS (si está disponible), solicitud, respuesta y estado sin copiar cookies/tokens; resolver caso con 200/401/403/404/429/500.
+- Puedes justificar la evidencia que guardas y qué demuestra: Captura saneada o tabla, diagrama de recorrido y miniinforme con límites de conclusión.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 07 (Tráfico web normal con DevTools y sintetizar la fase). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Inspeccionar una página propia o demo permitida; describir DNS (si está disponible), solicitud, respuesta y estado sin copiar cookies/tokens; resolver caso con 200/401/403/404/429/500. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Captura saneada o tabla, diagrama de recorrido y miniinforme con límites de conclusión.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 07](evaluaciones.md#evaluación-día-07)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Captura saneada o tabla, diagrama de recorrido y miniinforme con límites de conclusión.
+> Actúa como mi tutor técnico para el Día 07. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Inspeccionar tráfico web normal con DevTools y sintetizar la fase. La práctica es: Inspeccionar una página propia o demo permitida; describir DNS (si está disponible), solicitud, respuesta y estado sin copiar cookies/tokens; resolver caso con 200/401/403/404/429/500. La evidencia que debo producir es: Captura saneada o tabla, diagrama de recorrido y miniinforme con límites de conclusión. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 07](evaluaciones.md#evaluación-día-07).
 
 ---
 
 # Día 08 — Tablas, filas, claves y relaciones SQL
 
-**🎯 Objetivo:** Explicar tablas, filas, claves y relaciones SQL.
+**Objetivo de aprendizaje:** Explicar tablas, filas, claves y relaciones SQL.
 
-**📚 Teoría:** [SQLBolt: Lessons 1–3](https://sqlbolt.com/)
+**Teoría y recurso:** [SQLBolt: Lessons 1–3](https://sqlbolt.com/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
+**Práctica guiada (35 min):**
 
-1. Crear mentalmente y luego consultar tablas sintéticas de productos, tiendas y observaciones.
+Crear mentalmente y luego consultar tablas sintéticas de productos, tiendas y observaciones.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Explicar tablas, filas, claves y relaciones SQL.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
-- **Evidencia verificable:** Diagrama relacional y definición de claves.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Explicar tablas, filas, claves y relaciones SQL.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear mentalmente y luego consultar tablas sintéticas de productos, tiendas y observaciones.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama relacional y definición de claves.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 08 (Tablas, filas, claves y relaciones SQL). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear mentalmente y luego consultar tablas sintéticas de productos, tiendas y observaciones. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama relacional y definición de claves.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 08](evaluaciones.md#evaluación-día-08)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama relacional y definición de claves.
+> Actúa como mi tutor técnico para el Día 08. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Explicar tablas, filas, claves y relaciones SQL. La práctica es: Crear mentalmente y luego consultar tablas sintéticas de productos, tiendas y observaciones. La evidencia que debo producir es: Diagrama relacional y definición de claves. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
 
----
-
-# Día 09 — Datos con SELECT, WHERE, ORDER BY y LIMIT
-
-**🎯 Objetivo:** Consultar datos con SELECT, WHERE, ORDER BY y LIMIT.
-
-**📚 Teoría:** [SQLBolt: SELECT](https://sqlbolt.com/lesson/select_queries_introduction)
-
-**🛠️ Práctica Guiada:**
-
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
-
-1. Resolver consultas sobre dataset sintético y predecir resultados antes de ejecutarlas.
-
-**💡 Conceptos Clave:**
-
-- **Objetivo de aprendizaje:** Consultar datos con SELECT, WHERE, ORDER BY y LIMIT.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
-- **Evidencia verificable:** Archivo SQL con 6 consultas y resultados.
-
-## 🏁 Evaluación y Evidencia
-
-**Paso 1: Copia este prompt en un Chat de IA:**
-
-> Actúa como mi Tutor Técnico. Estoy en el Día 09 (Datos con SELECT, WHERE, ORDER BY y LIMIT). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resolver consultas sobre dataset sintético y predecir resultados antes de ejecutarlas. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
-
-**Paso 2: Guarda tu evidencia:**
-
-👉 **[Ir a Evaluaciones Día 09](evaluaciones.md#evaluación-día-09)**
-
-Evidencia esperada según el plan: Archivo SQL con 6 consultas y resultados.
+**Registrar resultado:** [Evaluación del Día 08](evaluaciones.md#evaluación-día-08).
 
 ---
 
-# Día 10 — Tablas con JOIN
+# Día 09 — Consultar datos con SELECT, WHERE, ORDER BY y LIMIT
 
-**🎯 Objetivo:** Combinar tablas con JOIN.
+**Objetivo de aprendizaje:** Consultar datos con SELECT, WHERE, ORDER BY y LIMIT.
 
-**📚 Teoría:** [SQLBolt: JOIN](https://sqlbolt.com/lesson/6)
+**Teoría y recurso:** [SQLBolt: SELECT](https://sqlbolt.com/lesson/select_queries_introduction)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
+**Práctica guiada (35 min):**
 
-1. Unir productos y categorías.
-2. comparar INNER y LEFT JOIN con claves faltantes.
+Resolver consultas sobre dataset sintético y predecir resultados antes de ejecutarlas.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Combinar tablas con JOIN.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
-- **Evidencia verificable:** Consultas comentadas y explicación de filas excluidas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Consultar datos con SELECT, WHERE, ORDER BY y LIMIT.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resolver consultas sobre dataset sintético y predecir resultados antes de ejecutarlas.
+- Puedes justificar la evidencia que guardas y qué demuestra: Archivo SQL con 6 consultas y resultados.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 10 (Tablas con JOIN). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Unir productos y categorías; comparar INNER y LEFT JOIN con claves faltantes. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Archivo SQL con 6 consultas y resultados.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 10](evaluaciones.md#evaluación-día-10)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Consultas comentadas y explicación de filas excluidas.
+> Actúa como mi tutor técnico para el Día 09. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Consultar datos con SELECT, WHERE, ORDER BY y LIMIT. La práctica es: Resolver consultas sobre dataset sintético y predecir resultados antes de ejecutarlas. La evidencia que debo producir es: Archivo SQL con 6 consultas y resultados. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 09](evaluaciones.md#evaluación-día-09).
 
 ---
 
-# Día 11 — Datos con agregaciones, GROUP BY y HAVING
+# Día 10 — Combinar tablas con JOIN
 
-**🎯 Objetivo:** Resumir datos con agregaciones, GROUP BY y HAVING.
+**Objetivo de aprendizaje:** Combinar tablas con JOIN.
 
-**📚 Teoría:** [SQLBolt: Aggregates](https://sqlbolt.com/lesson/select_queries_with_aggregates)
+**Teoría y recurso:** [SQLBolt: JOIN](https://sqlbolt.com/lesson/6)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
+**Práctica guiada (35 min):**
 
-1. Calcular conteos, mínimos, máximos y promedios por producto/tienda.
+Unir productos y categorías; comparar INNER y LEFT JOIN con claves faltantes.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Resumir datos con agregaciones, GROUP BY y HAVING.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
-- **Evidencia verificable:** Tabla resumen y validación manual de 3 resultados.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Combinar tablas con JOIN.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Unir productos y categorías; comparar INNER y LEFT JOIN con claves faltantes.
+- Puedes justificar la evidencia que guardas y qué demuestra: Consultas comentadas y explicación de filas excluidas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 11 (Datos con agregaciones, GROUP BY y HAVING). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Calcular conteos, mínimos, máximos y promedios por producto/tienda. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Consultas comentadas y explicación de filas excluidas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 11](evaluaciones.md#evaluación-día-11)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla resumen y validación manual de 3 resultados.
+> Actúa como mi tutor técnico para el Día 10. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Combinar tablas con JOIN. La práctica es: Unir productos y categorías; comparar INNER y LEFT JOIN con claves faltantes. La evidencia que debo producir es: Consultas comentadas y explicación de filas excluidas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 10](evaluaciones.md#evaluación-día-10).
+
+---
+
+# Día 11 — Resumir datos con agregaciones, GROUP BY y HAVING
+
+**Objetivo de aprendizaje:** Resumir datos con agregaciones, GROUP BY y HAVING.
+
+**Teoría y recurso:** [SQLBolt: Aggregates](https://sqlbolt.com/lesson/select_queries_with_aggregates)
+
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
+
+**Práctica guiada (35 min):**
+
+Calcular conteos, mínimos, máximos y promedios por producto/tienda.
+
+**Ejercicio individual (15 min):**
+
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
+
+**Criterios de dominio:**
+
+- Puedes explicar con tus palabras el objetivo: Resumir datos con agregaciones, GROUP BY y HAVING.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Calcular conteos, mínimos, máximos y promedios por producto/tienda.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla resumen y validación manual de 3 resultados.
+
+**Evidencia verificable:** Tabla resumen y validación manual de 3 resultados.
+
+## Evaluación interactiva
+
+Copia este prompt en un chat de IA:
+
+> Actúa como mi tutor técnico para el Día 11. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Resumir datos con agregaciones, GROUP BY y HAVING. La práctica es: Calcular conteos, mínimos, máximos y promedios por producto/tienda. La evidencia que debo producir es: Tabla resumen y validación manual de 3 resultados. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 11](evaluaciones.md#evaluación-día-11).
 
 ---
 
 # Día 12 — Consultas parametrizadas y separar código de datos
 
-**🎯 Objetivo:** Aplicar consultas parametrizadas y separar código de datos.
+**Objetivo de aprendizaje:** Aplicar consultas parametrizadas y separar código de datos.
 
-**📚 Teoría:** [Python sqlite3: placeholders](https://docs.python.org/3/library/sqlite3.html)
+**Teoría y recurso:** [Python sqlite3: placeholders](https://docs.python.org/3/library/sqlite3.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; módulo sqlite3 integrado
 
-Herramientas: Python 3 + VS Code; módulo sqlite3 integrado
+**Práctica guiada (35 min):**
 
-1. Comparar concatenación insegura con consulta parametrizada usando SQLite local.
+Comparar concatenación insegura con consulta parametrizada usando SQLite local.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Aplicar consultas parametrizadas y separar código de datos.
-- **Herramientas:** Python 3 + VS Code; módulo sqlite3 integrado
-- **Evidencia verificable:** Ejemplo seguro ejecutable y explicación.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Aplicar consultas parametrizadas y separar código de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Comparar concatenación insegura con consulta parametrizada usando SQLite local.
+- Puedes justificar la evidencia que guardas y qué demuestra: Ejemplo seguro ejecutable y explicación.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 12 (Consultas parametrizadas y separar código de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Comparar concatenación insegura con consulta parametrizada usando SQLite local. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Ejemplo seguro ejecutable y explicación.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 12](evaluaciones.md#evaluación-día-12)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Ejemplo seguro ejecutable y explicación.
+> Actúa como mi tutor técnico para el Día 12. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Aplicar consultas parametrizadas y separar código de datos. La práctica es: Comparar concatenación insegura con consulta parametrizada usando SQLite local. La evidencia que debo producir es: Ejemplo seguro ejecutable y explicación. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 12](evaluaciones.md#evaluación-día-12).
 
 ---
 
 # Día 13 — Causa, impacto y prevención de SQL injection
 
-**🎯 Objetivo:** Explicar causa, impacto y prevención de SQL injection.
+**Objetivo de aprendizaje:** Explicar causa, impacto y prevención de SQL injection.
 
-**📚 Teoría:** [OWASP: SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+**Teoría y recurso:** [OWASP: SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
+**Práctica guiada (35 min):**
 
-1. Analizar ejemplos escritos.
-2. no atacar sitios ni ejecutar payloads contra servicios reales.
+Analizar ejemplos escritos; no atacar sitios ni ejecutar payloads contra servicios reales.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Explicar causa, impacto y prevención de SQL injection.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
-- **Evidencia verificable:** Matriz causa/impacto/control con ejemplo inocuo.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Explicar causa, impacto y prevención de SQL injection.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Analizar ejemplos escritos; no atacar sitios ni ejecutar payloads contra servicios reales.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz causa/impacto/control con ejemplo inocuo.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 13 (Causa, impacto y prevención de SQL injection). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Analizar ejemplos escritos; no atacar sitios ni ejecutar payloads contra servicios reales. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz causa/impacto/control con ejemplo inocuo.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 13](evaluaciones.md#evaluación-día-13)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz causa/impacto/control con ejemplo inocuo.
+> Actúa como mi tutor técnico para el Día 13. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Explicar causa, impacto y prevención de SQL injection. La práctica es: Analizar ejemplos escritos; no atacar sitios ni ejecutar payloads contra servicios reales. La evidencia que debo producir es: Matriz causa/impacto/control con ejemplo inocuo. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 13](evaluaciones.md#evaluación-día-13).
 
 ---
 
 # Día 14 — Y normalizar entradas de datos
 
-**🎯 Objetivo:** Validar y normalizar entradas de datos.
+**Objetivo de aprendizaje:** Validar y normalizar entradas de datos.
 
-**📚 Teoría:** [OWASP: Input Validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+**Teoría y recurso:** [OWASP: Input Validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
+**Práctica guiada (35 min):**
 
-1. Definir reglas de tipo, longitud, rango, formato y valores permitidos para campos sintéticos.
+Definir reglas de tipo, longitud, rango, formato y valores permitidos para campos sintéticos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Validar y normalizar entradas de datos.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
-- **Evidencia verificable:** Especificación de validación y casos límite.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Validar y normalizar entradas de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Definir reglas de tipo, longitud, rango, formato y valores permitidos para campos sintéticos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Especificación de validación y casos límite.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 14 (Y normalizar entradas de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Definir reglas de tipo, longitud, rango, formato y valores permitidos para campos sintéticos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Especificación de validación y casos límite.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 14](evaluaciones.md#evaluación-día-14)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Especificación de validación y casos límite.
+> Actúa como mi tutor técnico para el Día 14. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Validar y normalizar entradas de datos. La práctica es: Definir reglas de tipo, longitud, rango, formato y valores permitidos para campos sintéticos. La evidencia que debo producir es: Especificación de validación y casos límite. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 14](evaluaciones.md#evaluación-día-14).
 
 ---
 
 # Día 15 — Mínimo privilegio en bases de datos
 
-**🎯 Objetivo:** Aplicar mínimo privilegio en bases de datos.
+**Objetivo de aprendizaje:** Aplicar mínimo privilegio en bases de datos.
 
-**📚 Teoría:** [OWASP: Database Security](https://cheatsheetseries.owasp.org/)
+**Teoría y recurso:** [OWASP: Database Security](https://cheatsheetseries.owasp.org/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
+**Práctica guiada (35 min):**
 
-1. Diseñar roles ficticios lector, analista y administrador.
-2. asignar solo permisos necesarios.
+Diseñar roles ficticios lector, analista y administrador; asignar solo permisos necesarios.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Aplicar mínimo privilegio en bases de datos.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
-- **Evidencia verificable:** Matriz rol-permiso y justificación.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Aplicar mínimo privilegio en bases de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Diseñar roles ficticios lector, analista y administrador; asignar solo permisos necesarios.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz rol-permiso y justificación.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 15 (Mínimo privilegio en bases de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Diseñar roles ficticios lector, analista y administrador; asignar solo permisos necesarios. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz rol-permiso y justificación.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 15](evaluaciones.md#evaluación-día-15)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz rol-permiso y justificación.
+> Actúa como mi tutor técnico para el Día 15. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Aplicar mínimo privilegio en bases de datos. La práctica es: Diseñar roles ficticios lector, analista y administrador; asignar solo permisos necesarios. La evidencia que debo producir es: Matriz rol-permiso y justificación. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 15](evaluaciones.md#evaluación-día-15).
 
 ---
 
 # Día 16 — Utilidad y riesgos de auditoría de consultas
 
-**🎯 Objetivo:** Identificar utilidad y riesgos de auditoría de consultas.
+**Objetivo de aprendizaje:** Identificar utilidad y riesgos de auditoría de consultas.
 
-**📚 Teoría:** [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+**Teoría y recurso:** [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
+**Práctica guiada (35 min):**
 
-1. Diseñar campos de auditoría útiles sin registrar contraseñas, tokens ni datos innecesarios.
+Diseñar campos de auditoría útiles sin registrar contraseñas, tokens ni datos innecesarios.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Identificar utilidad y riesgos de auditoría de consultas.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
-- **Evidencia verificable:** Esquema de log y revisión de privacidad.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Identificar utilidad y riesgos de auditoría de consultas.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Diseñar campos de auditoría útiles sin registrar contraseñas, tokens ni datos innecesarios.
+- Puedes justificar la evidencia que guardas y qué demuestra: Esquema de log y revisión de privacidad.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 16 (Utilidad y riesgos de auditoría de consultas). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Diseñar campos de auditoría útiles sin registrar contraseñas, tokens ni datos innecesarios. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Esquema de log y revisión de privacidad.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 16](evaluaciones.md#evaluación-día-16)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Esquema de log y revisión de privacidad.
+> Actúa como mi tutor técnico para el Día 16. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Identificar utilidad y riesgos de auditoría de consultas. La práctica es: Diseñar campos de auditoría útiles sin registrar contraseñas, tokens ni datos innecesarios. La evidencia que debo producir es: Esquema de log y revisión de privacidad. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 16](evaluaciones.md#evaluación-día-16).
 
 ---
 
 # Día 17 — Un caso integrado de consultas seguras
 
-**🎯 Objetivo:** Resolver un caso integrado de consultas seguras.
+**Objetivo de aprendizaje:** Resolver un caso integrado de consultas seguras.
 
-**📚 Teoría:** [SQLite: SELECT](https://www.sqlite.org/lang_select.html), [SQLBolt](https://sqlbolt.com/)
+**Teoría y recurso:** [SQLite: SELECT](https://www.sqlite.org/lang_select.html), [SQLBolt](https://sqlbolt.com/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
+**Práctica guiada (35 min):**
 
-1. Consultar dataset sintético, detectar anomalías simples y justificar filtros y joins.
+Consultar dataset sintético, detectar anomalías simples y justificar filtros y joins.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Resolver un caso integrado de consultas seguras.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
-- **Evidencia verificable:** Script SQL reproducible y hallazgos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Resolver un caso integrado de consultas seguras.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Consultar dataset sintético, detectar anomalías simples y justificar filtros y joins.
+- Puedes justificar la evidencia que guardas y qué demuestra: Script SQL reproducible y hallazgos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 17 (Un caso integrado de consultas seguras). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Consultar dataset sintético, detectar anomalías simples y justificar filtros y joins. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Script SQL reproducible y hallazgos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 17](evaluaciones.md#evaluación-día-17)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Script SQL reproducible y hallazgos.
+> Actúa como mi tutor técnico para el Día 17. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Resolver un caso integrado de consultas seguras. La práctica es: Consultar dataset sintético, detectar anomalías simples y justificar filtros y joins. La evidencia que debo producir es: Script SQL reproducible y hallazgos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 17](evaluaciones.md#evaluación-día-17).
 
 ---
 
 # Día 18 — Los conocimientos de la fase 1
 
-**🎯 Objetivo:** Demostrar los conocimientos de la fase 1.
+**Objetivo de aprendizaje:** Demostrar los conocimientos de la fase 1.
 
-**📚 Teoría:** Revisión de recursos de sesiones 1–17.
+**Teoría y recurso:** Revisión de recursos de sesiones 1–17.
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
+**Práctica guiada (35 min):**
 
-1. Resolver un caso nuevo sin copiar la solución.
-2. explicar decisiones y límites.
+Resolver un caso nuevo sin copiar la solución; explicar decisiones y límites.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Demostrar los conocimientos de la fase 1.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community; editor de texto
-- **Evidencia verificable:** Evaluación, consultas verificadas e informe de controles.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Demostrar los conocimientos de la fase 1.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resolver un caso nuevo sin copiar la solución; explicar decisiones y límites.
+- Puedes justificar la evidencia que guardas y qué demuestra: Evaluación, consultas verificadas e informe de controles.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 18 (Los conocimientos de la fase 1). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resolver un caso nuevo sin copiar la solución; explicar decisiones y límites. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Evaluación, consultas verificadas e informe de controles.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 18](evaluaciones.md#evaluación-día-18)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Evaluación, consultas verificadas e informe de controles.
+> Actúa como mi tutor técnico para el Día 18. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Demostrar los conocimientos de la fase 1. La práctica es: Resolver un caso nuevo sin copiar la solución; explicar decisiones y límites. La evidencia que debo producir es: Evaluación, consultas verificadas e informe de controles. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 18](evaluaciones.md#evaluación-día-18).
 
 ---
 
 # Día 19 — Variables, tipos, condiciones y bucles en Python
 
-**🎯 Objetivo:** Usar variables, tipos, condiciones y bucles en Python.
+**Objetivo de aprendizaje:** Usar variables, tipos, condiciones y bucles en Python.
 
-**📚 Teoría:** [Python Tutorial](https://docs.python.org/3/tutorial/)
+**Teoría y recurso:** [Python Tutorial](https://docs.python.org/3/tutorial/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code
 
-Herramientas: Python 3 + VS Code
+**Práctica guiada (35 min):**
 
-1. Procesar una lista de observaciones sintéticas y clasificar valores.
+Procesar una lista de observaciones sintéticas y clasificar valores.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Usar variables, tipos, condiciones y bucles en Python.
-- **Herramientas:** Python 3 + VS Code
-- **Evidencia verificable:** Script comentado y salida esperada.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Usar variables, tipos, condiciones y bucles en Python.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Procesar una lista de observaciones sintéticas y clasificar valores.
+- Puedes justificar la evidencia que guardas y qué demuestra: Script comentado y salida esperada.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 19 (Variables, tipos, condiciones y bucles en Python). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Procesar una lista de observaciones sintéticas y clasificar valores. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Script comentado y salida esperada.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 19](evaluaciones.md#evaluación-día-19)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Script comentado y salida esperada.
+> Actúa como mi tutor técnico para el Día 19. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Usar variables, tipos, condiciones y bucles en Python. La práctica es: Procesar una lista de observaciones sintéticas y clasificar valores. La evidencia que debo producir es: Script comentado y salida esperada. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 19](evaluaciones.md#evaluación-día-19).
 
 ---
 
 # Día 20 — Funciones, módulos y manejar errores
 
-**🎯 Objetivo:** Crear funciones, módulos y manejar errores.
+**Objetivo de aprendizaje:** Crear funciones, módulos y manejar errores.
 
-**📚 Teoría:** [Python: Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
+**Teoría y recurso:** [Python: Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code
 
-Herramientas: Python 3 + VS Code
+**Práctica guiada (35 min):**
 
-1. Convertir validaciones repetidas en funciones y manejar entradas inválidas.
+Convertir validaciones repetidas en funciones y manejar entradas inválidas.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Crear funciones, módulos y manejar errores.
-- **Herramientas:** Python 3 + VS Code
-- **Evidencia verificable:** Módulo pequeño y 3 casos de prueba.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Crear funciones, módulos y manejar errores.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Convertir validaciones repetidas en funciones y manejar entradas inválidas.
+- Puedes justificar la evidencia que guardas y qué demuestra: Módulo pequeño y 3 casos de prueba.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 20 (Funciones, módulos y manejar errores). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Convertir validaciones repetidas en funciones y manejar entradas inválidas. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Módulo pequeño y 3 casos de prueba.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 20](evaluaciones.md#evaluación-día-20)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Módulo pequeño y 3 casos de prueba.
+> Actúa como mi tutor técnico para el Día 20. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Crear funciones, módulos y manejar errores. La práctica es: Convertir validaciones repetidas en funciones y manejar entradas inválidas. La evidencia que debo producir es: Módulo pequeño y 3 casos de prueba. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 20](evaluaciones.md#evaluación-día-20).
 
 ---
 
 # Día 21 — Y escribir CSV y JSON
 
-**🎯 Objetivo:** Leer y escribir CSV y JSON.
+**Objetivo de aprendizaje:** Leer y escribir CSV y JSON.
 
-**📚 Teoría:** [Python: csv](https://docs.python.org/3/library/csv.html), [json](https://docs.python.org/3/library/json.html)
+**Teoría y recurso:** [Python: csv](https://docs.python.org/3/library/csv.html), [json](https://docs.python.org/3/library/json.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code
 
-Herramientas: Python 3 + VS Code
+**Práctica guiada (35 min):**
 
-1. Leer archivo sintético y exportar registros normalizados a CSV/JSON.
+Leer archivo sintético y exportar registros normalizados a CSV/JSON.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Leer y escribir CSV y JSON.
-- **Herramientas:** Python 3 + VS Code
-- **Evidencia verificable:** Archivos de entrada/salida y conteos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Leer y escribir CSV y JSON.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Leer archivo sintético y exportar registros normalizados a CSV/JSON.
+- Puedes justificar la evidencia que guardas y qué demuestra: Archivos de entrada/salida y conteos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 21 (Y escribir CSV y JSON). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Leer archivo sintético y exportar registros normalizados a CSV/JSON. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Archivos de entrada/salida y conteos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 21](evaluaciones.md#evaluación-día-21)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Archivos de entrada/salida y conteos.
+> Actúa como mi tutor técnico para el Día 21. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Leer y escribir CSV y JSON. La práctica es: Leer archivo sintético y exportar registros normalizados a CSV/JSON. La evidencia que debo producir es: Archivos de entrada/salida y conteos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 21](evaluaciones.md#evaluación-día-21).
 
 ---
 
 # Día 22 — Tipos, nulos y duplicados con reglas explícitas
 
-**🎯 Objetivo:** Limpiar tipos, nulos y duplicados con reglas explícitas.
+**Objetivo de aprendizaje:** Limpiar tipos, nulos y duplicados con reglas explícitas.
 
-**📚 Teoría:** [Pandas: missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
+**Teoría y recurso:** [Pandas: missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + pandas (biblioteca gratuita)
 
-Herramientas: Python 3 + VS Code + pandas (biblioteca gratuita)
+**Práctica guiada (35 min):**
 
-1. Perfilar un CSV.
-2. separar inválidos sin descartarlos silenciosamente.
+Perfilar un CSV; separar inválidos sin descartarlos silenciosamente.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Limpiar tipos, nulos y duplicados con reglas explícitas.
-- **Herramientas:** Python 3 + VS Code + pandas (biblioteca gratuita)
-- **Evidencia verificable:** Reporte antes/después y reglas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Limpiar tipos, nulos y duplicados con reglas explícitas.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Perfilar un CSV; separar inválidos sin descartarlos silenciosamente.
+- Puedes justificar la evidencia que guardas y qué demuestra: Reporte antes/después y reglas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 22 (Tipos, nulos y duplicados con reglas explícitas). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Perfilar un CSV; separar inválidos sin descartarlos silenciosamente. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Reporte antes/después y reglas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 22](evaluaciones.md#evaluación-día-22)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Reporte antes/después y reglas.
+> Actúa como mi tutor técnico para el Día 22. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Limpiar tipos, nulos y duplicados con reglas explícitas. La práctica es: Perfilar un CSV; separar inválidos sin descartarlos silenciosamente. La evidencia que debo producir es: Reporte antes/después y reglas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 22](evaluaciones.md#evaluación-día-22).
 
 ---
 
 # Día 23 — Una API pública/autorizada con HTTP
 
-**🎯 Objetivo:** Consumir una API pública/autorizada con HTTP.
+**Objetivo de aprendizaje:** Consumir una API pública/autorizada con HTTP.
 
-**📚 Teoría:** [Requests: Quickstart](https://requests.readthedocs.io/en/latest/user/quickstart/)
+**Teoría y recurso:** [Requests: Quickstart](https://requests.readthedocs.io/en/latest/user/quickstart/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Consultar endpoint de demostración permitido.
-2. revisar estado, JSON y timeout.
+Consultar endpoint de demostración permitido; revisar estado, JSON y timeout.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Consumir una API pública/autorizada con HTTP.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Script y respuesta saneada.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Consumir una API pública/autorizada con HTTP.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Consultar endpoint de demostración permitido; revisar estado, JSON y timeout.
+- Puedes justificar la evidencia que guardas y qué demuestra: Script y respuesta saneada.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 23 (Una API pública/autorizada con HTTP). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Consultar endpoint de demostración permitido; revisar estado, JSON y timeout. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Script y respuesta saneada.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 23](evaluaciones.md#evaluación-día-23)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Script y respuesta saneada.
+> Actúa como mi tutor técnico para el Día 23. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Consumir una API pública/autorizada con HTTP. La práctica es: Consultar endpoint de demostración permitido; revisar estado, JSON y timeout. La evidencia que debo producir es: Script y respuesta saneada. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 23](evaluaciones.md#evaluación-día-23).
 
 ---
 
 # Día 24 — Paginación, límites y reintentos responsables
 
-**🎯 Objetivo:** Manejar paginación, límites y reintentos responsables.
+**Objetivo de aprendizaje:** Manejar paginación, límites y reintentos responsables.
 
-**📚 Teoría:** [Google API: errors](https://cloud.google.com/apis/design/errors)
+**Teoría y recurso:** [Google API: errors](https://cloud.google.com/apis/design/errors)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Simular paginación y backoff.
-2. detener reintentos ante errores permanentes.
+Simular paginación y backoff; detener reintentos ante errores permanentes.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Manejar paginación, límites y reintentos responsables.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Diagrama de flujo y pruebas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Manejar paginación, límites y reintentos responsables.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Simular paginación y backoff; detener reintentos ante errores permanentes.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama de flujo y pruebas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 24 (Paginación, límites y reintentos responsables). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Simular paginación y backoff; detener reintentos ante errores permanentes. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama de flujo y pruebas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 24](evaluaciones.md#evaluación-día-24)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama de flujo y pruebas.
+> Actúa como mi tutor técnico para el Día 24. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Manejar paginación, límites y reintentos responsables. La práctica es: Simular paginación y backoff; detener reintentos ante errores permanentes. La evidencia que debo producir es: Diagrama de flujo y pruebas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 24](evaluaciones.md#evaluación-día-24).
 
 ---
 
 # Día 25 — Secretos y variables de entorno
 
-**🎯 Objetivo:** Gestionar secretos y variables de entorno.
+**Objetivo de aprendizaje:** Gestionar secretos y variables de entorno.
 
-**📚 Teoría:** [GitHub: secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions), [Python os.environ](https://docs.python.org/3/library/os.html#os.environ)
+**Teoría y recurso:** [GitHub: secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions), [Python os.environ](https://docs.python.org/3/library/os.html#os.environ)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Leer una variable ficticia desde entorno.
-2. comprobar que nunca se imprime.
+Leer una variable ficticia desde entorno; comprobar que nunca se imprime.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Gestionar secretos y variables de entorno.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Ejemplo de configuración segura y checklist.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Gestionar secretos y variables de entorno.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Leer una variable ficticia desde entorno; comprobar que nunca se imprime.
+- Puedes justificar la evidencia que guardas y qué demuestra: Ejemplo de configuración segura y checklist.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 25 (Secretos y variables de entorno). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Leer una variable ficticia desde entorno; comprobar que nunca se imprime. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Ejemplo de configuración segura y checklist.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 25](evaluaciones.md#evaluación-día-25)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Ejemplo de configuración segura y checklist.
+> Actúa como mi tutor técnico para el Día 25. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Gestionar secretos y variables de entorno. La práctica es: Leer una variable ficticia desde entorno; comprobar que nunca se imprime. La evidencia que debo producir es: Ejemplo de configuración segura y checklist. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 25](evaluaciones.md#evaluación-día-25).
 
 ---
 
 # Día 26 — Esquemas y contratos de datos
 
-**🎯 Objetivo:** Validar esquemas y contratos de datos.
+**Objetivo de aprendizaje:** Validar esquemas y contratos de datos.
 
-**📚 Teoría:** [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step)
+**Teoría y recurso:** [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Definir campos, tipos, requeridos y restricciones para observaciones de precio.
+Definir campos, tipos, requeridos y restricciones para observaciones de precio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Validar esquemas y contratos de datos.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Esquema y conjunto válido/inválido.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Validar esquemas y contratos de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Definir campos, tipos, requeridos y restricciones para observaciones de precio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Esquema y conjunto válido/inválido.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 26 (Esquemas y contratos de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Definir campos, tipos, requeridos y restricciones para observaciones de precio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Esquema y conjunto válido/inválido.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 26](evaluaciones.md#evaluación-día-26)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Esquema y conjunto válido/inválido.
+> Actúa como mi tutor técnico para el Día 26. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Validar esquemas y contratos de datos. La práctica es: Definir campos, tipos, requeridos y restricciones para observaciones de precio. La evidencia que debo producir es: Esquema y conjunto válido/inválido. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 26](evaluaciones.md#evaluación-día-26).
 
 ---
 
 # Día 27 — Logging estructurado sin datos sensibles
 
-**🎯 Objetivo:** Implementar logging estructurado sin datos sensibles.
+**Objetivo de aprendizaje:** Implementar logging estructurado sin datos sensibles.
 
-**📚 Teoría:** [Python logging](https://docs.python.org/3/library/logging.html), [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+**Teoría y recurso:** [Python logging](https://docs.python.org/3/library/logging.html), [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Registrar inicio, conteos, duración y errores resumidos con datos sintéticos.
+Registrar inicio, conteos, duración y errores resumidos con datos sintéticos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Implementar logging estructurado sin datos sensibles.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Log JSON y revisión de exposición.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Implementar logging estructurado sin datos sensibles.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Registrar inicio, conteos, duración y errores resumidos con datos sintéticos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Log JSON y revisión de exposición.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 27 (Logging estructurado sin datos sensibles). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Registrar inicio, conteos, duración y errores resumidos con datos sintéticos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Log JSON y revisión de exposición.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 27](evaluaciones.md#evaluación-día-27)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Log JSON y revisión de exposición.
+> Actúa como mi tutor técnico para el Día 27. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Implementar logging estructurado sin datos sensibles. La práctica es: Registrar inicio, conteos, duración y errores resumidos con datos sintéticos. La evidencia que debo producir es: Log JSON y revisión de exposición. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 27](evaluaciones.md#evaluación-día-27).
 
 ---
 
 # Día 28 — Pruebas unitarias básicas
 
-**🎯 Objetivo:** Escribir pruebas unitarias básicas.
+**Objetivo de aprendizaje:** Escribir pruebas unitarias básicas.
 
-**📚 Teoría:** [Python unittest](https://docs.python.org/3/library/unittest.html)
+**Teoría y recurso:** [Python unittest](https://docs.python.org/3/library/unittest.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Probar funciones de validación para entradas correctas, nulas y límites.
+Probar funciones de validación para entradas correctas, nulas y límites.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Escribir pruebas unitarias básicas.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Suite con pruebas positivas y negativas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Escribir pruebas unitarias básicas.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Probar funciones de validación para entradas correctas, nulas y límites.
+- Puedes justificar la evidencia que guardas y qué demuestra: Suite con pruebas positivas y negativas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 28 (Pruebas unitarias básicas). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Probar funciones de validación para entradas correctas, nulas y límites. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Suite con pruebas positivas y negativas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 28](evaluaciones.md#evaluación-día-28)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Suite con pruebas positivas y negativas.
+> Actúa como mi tutor técnico para el Día 28. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Escribir pruebas unitarias básicas. La práctica es: Probar funciones de validación para entradas correctas, nulas y límites. La evidencia que debo producir es: Suite con pruebas positivas y negativas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 28](evaluaciones.md#evaluación-día-28).
 
 ---
 
 # Día 29 — Errores HTTP y respuestas inesperadas
 
-**🎯 Objetivo:** Gestionar errores HTTP y respuestas inesperadas.
+**Objetivo de aprendizaje:** Gestionar errores HTTP y respuestas inesperadas.
 
-**📚 Teoría:** [Requests: errors and exceptions](https://requests.readthedocs.io/en/latest/user/quickstart/#errors-and-exceptions)
+**Teoría y recurso:** [Requests: errors and exceptions](https://requests.readthedocs.io/en/latest/user/quickstart/#errors-and-exceptions)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Simular timeout, 404, 429 y JSON inválido.
-2. asignar respuesta apropiada.
+Simular timeout, 404, 429 y JSON inválido; asignar respuesta apropiada.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Gestionar errores HTTP y respuestas inesperadas.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Tabla de errores y comportamiento probado.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Gestionar errores HTTP y respuestas inesperadas.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Simular timeout, 404, 429 y JSON inválido; asignar respuesta apropiada.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de errores y comportamiento probado.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 29 (Errores HTTP y respuestas inesperadas). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Simular timeout, 404, 429 y JSON inválido; asignar respuesta apropiada. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de errores y comportamiento probado.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 29](evaluaciones.md#evaluación-día-29)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de errores y comportamiento probado.
+> Actúa como mi tutor técnico para el Día 29. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Gestionar errores HTTP y respuestas inesperadas. La práctica es: Simular timeout, 404, 429 y JSON inválido; asignar respuesta apropiada. La evidencia que debo producir es: Tabla de errores y comportamiento probado. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 29](evaluaciones.md#evaluación-día-29).
 
 ---
 
 # Día 30 — Linaje y trazabilidad
 
-**🎯 Objetivo:** Documentar linaje y trazabilidad.
+**Objetivo de aprendizaje:** Documentar linaje y trazabilidad.
 
-**📚 Teoría:** [OpenLineage: documentation](https://openlineage.io/docs/)
+**Teoría y recurso:** [OpenLineage: documentation](https://openlineage.io/docs/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
 
-Herramientas: Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Definir fuente, timestamp, identificador, versión de transformación y destino.
+Definir fuente, timestamp, identificador, versión de transformación y destino.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Documentar linaje y trazabilidad.
-- **Herramientas:** Python 3 + VS Code; bibliotecas estándar y Requests cuando corresponda
-- **Evidencia verificable:** Registro de linaje de extremo a extremo.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Documentar linaje y trazabilidad.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Definir fuente, timestamp, identificador, versión de transformación y destino.
+- Puedes justificar la evidencia que guardas y qué demuestra: Registro de linaje de extremo a extremo.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 30 (Linaje y trazabilidad). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Definir fuente, timestamp, identificador, versión de transformación y destino. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Registro de linaje de extremo a extremo.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 30](evaluaciones.md#evaluación-día-30)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Registro de linaje de extremo a extremo.
+> Actúa como mi tutor técnico para el Día 30. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Documentar linaje y trazabilidad. La práctica es: Definir fuente, timestamp, identificador, versión de transformación y destino. La evidencia que debo producir es: Registro de linaje de extremo a extremo. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 30](evaluaciones.md#evaluación-día-30).
 
 ---
 
 # Día 31 — Anomalías simples sin confundirlas con incidentes
 
-**🎯 Objetivo:** Detectar anomalías simples sin confundirlas con incidentes.
+**Objetivo de aprendizaje:** Detectar anomalías simples sin confundirlas con incidentes.
 
-**📚 Teoría:** [NIST: SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [NIST: SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; hoja de cálculo LibreOffice Calc (gratuita)
 
-Herramientas: Python 3 + VS Code; hoja de cálculo LibreOffice Calc (gratuita)
+**Práctica guiada (35 min):**
 
-1. Calcular rangos y variaciones en datos sintéticos.
-2. explicar umbrales.
+Calcular rangos y variaciones en datos sintéticos; explicar umbrales.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Detectar anomalías simples sin confundirlas con incidentes.
-- **Herramientas:** Python 3 + VS Code; hoja de cálculo LibreOffice Calc (gratuita)
-- **Evidencia verificable:** Tabla de anomalías y limitaciones.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Detectar anomalías simples sin confundirlas con incidentes.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Calcular rangos y variaciones en datos sintéticos; explicar umbrales.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de anomalías y limitaciones.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 31 (Anomalías simples sin confundirlas con incidentes). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Calcular rangos y variaciones en datos sintéticos; explicar umbrales. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de anomalías y limitaciones.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 31](evaluaciones.md#evaluación-día-31)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de anomalías y limitaciones.
+> Actúa como mi tutor técnico para el Día 31. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Detectar anomalías simples sin confundirlas con incidentes. La práctica es: Calcular rangos y variaciones en datos sintéticos; explicar umbrales. La evidencia que debo producir es: Tabla de anomalías y limitaciones. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 31](evaluaciones.md#evaluación-día-31).
 
 ---
 
 # Día 32 — Completitud, validez y consistencia
 
-**🎯 Objetivo:** Medir completitud, validez y consistencia.
+**Objetivo de aprendizaje:** Medir completitud, validez y consistencia.
 
-**📚 Teoría:** [Great Expectations: Core concepts](https://docs.greatexpectations.io/docs/core/introduction/)
+**Teoría y recurso:** [Great Expectations: Core concepts](https://docs.greatexpectations.io/docs/core/introduction/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code; hoja de cálculo LibreOffice Calc (gratuita)
 
-Herramientas: Python 3 + VS Code; hoja de cálculo LibreOffice Calc (gratuita)
+**Práctica guiada (35 min):**
 
-1. Definir métricas de calidad para campos obligatorios, precios y moneda.
+Definir métricas de calidad para campos obligatorios, precios y moneda.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Medir completitud, validez y consistencia.
-- **Herramientas:** Python 3 + VS Code; hoja de cálculo LibreOffice Calc (gratuita)
-- **Evidencia verificable:** Reporte de calidad con denominadores claros.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Medir completitud, validez y consistencia.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Definir métricas de calidad para campos obligatorios, precios y moneda.
+- Puedes justificar la evidencia que guardas y qué demuestra: Reporte de calidad con denominadores claros.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 32 (Completitud, validez y consistencia). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Definir métricas de calidad para campos obligatorios, precios y moneda. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Reporte de calidad con denominadores claros.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 32](evaluaciones.md#evaluación-día-32)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Reporte de calidad con denominadores claros.
+> Actúa como mi tutor técnico para el Día 32. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Medir completitud, validez y consistencia. La práctica es: Definir métricas de calidad para campos obligatorios, precios y moneda. La evidencia que debo producir es: Reporte de calidad con denominadores claros. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 32](evaluaciones.md#evaluación-día-32).
 
 ---
 
 # Día 33 — Integridad y deduplicación
 
-**🎯 Objetivo:** Controlar integridad y deduplicación.
+**Objetivo de aprendizaje:** Controlar integridad y deduplicación.
 
-**📚 Teoría:** [SQLite: constraints](https://www.sqlite.org/lang_createtable.html)
+**Teoría y recurso:** [SQLite: constraints](https://www.sqlite.org/lang_createtable.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
 
-Herramientas: SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
+**Práctica guiada (35 min):**
 
-1. Definir clave de negocio y restricciones.
-2. comparar duplicados exactos y potenciales.
+Definir clave de negocio y restricciones; comparar duplicados exactos y potenciales.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Controlar integridad y deduplicación.
-- **Herramientas:** SQLite + DB Browser for SQLite (gratuito) o DBeaver Community
-- **Evidencia verificable:** Reglas, resultados y excepciones.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Controlar integridad y deduplicación.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Definir clave de negocio y restricciones; comparar duplicados exactos y potenciales.
+- Puedes justificar la evidencia que guardas y qué demuestra: Reglas, resultados y excepciones.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 33 (Integridad y deduplicación). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Definir clave de negocio y restricciones; comparar duplicados exactos y potenciales. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Reglas, resultados y excepciones.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 33](evaluaciones.md#evaluación-día-33)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Reglas, resultados y excepciones.
+> Actúa como mi tutor técnico para el Día 33. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Controlar integridad y deduplicación. La práctica es: Definir clave de negocio y restricciones; comparar duplicados exactos y potenciales. La evidencia que debo producir es: Reglas, resultados y excepciones. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 33](evaluaciones.md#evaluación-día-33).
 
 ---
 
 # Día 34 — Pipeline pequeño para PharmaTracker
 
-**🎯 Objetivo:** Construir pipeline pequeño para PharmaTracker.
+**Objetivo de aprendizaje:** Construir pipeline pequeño para PharmaTracker.
 
-**📚 Teoría:** [Python: venv](https://docs.python.org/3/library/venv.html), [CSV](https://docs.python.org/3/library/csv.html)
+**Teoría y recurso:** [Python: venv](https://docs.python.org/3/library/venv.html), [CSV](https://docs.python.org/3/library/csv.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + SQLite
 
-Herramientas: Python 3 + VS Code + SQLite
+**Práctica guiada (35 min):**
 
-1. Encadenar lectura, validación, transformación y exportación sobre datos sintéticos.
+Encadenar lectura, validación, transformación y exportación sobre datos sintéticos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Construir pipeline pequeño para PharmaTracker.
-- **Herramientas:** Python 3 + VS Code + SQLite
-- **Evidencia verificable:** Pipeline reproducible desde cero.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Construir pipeline pequeño para PharmaTracker.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Encadenar lectura, validación, transformación y exportación sobre datos sintéticos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Pipeline reproducible desde cero.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 34 (Pipeline pequeño para PharmaTracker). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Encadenar lectura, validación, transformación y exportación sobre datos sintéticos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Pipeline reproducible desde cero.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 34](evaluaciones.md#evaluación-día-34)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Pipeline reproducible desde cero.
+> Actúa como mi tutor técnico para el Día 34. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Construir pipeline pequeño para PharmaTracker. La práctica es: Encadenar lectura, validación, transformación y exportación sobre datos sintéticos. La evidencia que debo producir es: Pipeline reproducible desde cero. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 34](evaluaciones.md#evaluación-día-34).
 
 ---
 
 # Día 35 — Seguridad y calidad del pipeline
 
-**🎯 Objetivo:** Revisar seguridad y calidad del pipeline.
+**Objetivo de aprendizaje:** Revisar seguridad y calidad del pipeline.
 
-**📚 Teoría:** [OWASP: Secure Coding](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
+**Teoría y recurso:** [OWASP: Secure Coding](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + SQLite
 
-Herramientas: Python 3 + VS Code + SQLite
+**Práctica guiada (35 min):**
 
-1. Revisar secretos, logs, entradas, dependencias, errores y trazabilidad.
+Revisar secretos, logs, entradas, dependencias, errores y trazabilidad.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Revisar seguridad y calidad del pipeline.
-- **Herramientas:** Python 3 + VS Code + SQLite
-- **Evidencia verificable:** Checklist con hallazgos y correcciones.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Revisar seguridad y calidad del pipeline.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Revisar secretos, logs, entradas, dependencias, errores y trazabilidad.
+- Puedes justificar la evidencia que guardas y qué demuestra: Checklist con hallazgos y correcciones.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 35 (Seguridad y calidad del pipeline). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Revisar secretos, logs, entradas, dependencias, errores y trazabilidad. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Checklist con hallazgos y correcciones.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 35](evaluaciones.md#evaluación-día-35)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Checklist con hallazgos y correcciones.
+> Actúa como mi tutor técnico para el Día 35. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Revisar seguridad y calidad del pipeline. La práctica es: Revisar secretos, logs, entradas, dependencias, errores y trazabilidad. La evidencia que debo producir es: Checklist con hallazgos y correcciones. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 35](evaluaciones.md#evaluación-día-35).
 
 ---
 
 # Día 36 — Fase 2 y documentar resultados
 
-**🎯 Objetivo:** Evaluar fase 2 y documentar resultados.
+**Objetivo de aprendizaje:** Evaluar fase 2 y documentar resultados.
 
-**📚 Teoría:** Revisión de recursos de sesiones 19–35.
+**Teoría y recurso:** Revisión de recursos de sesiones 19–35.
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + SQLite
 
-Herramientas: Python 3 + VS Code + SQLite
+**Práctica guiada (35 min):**
 
-1. Ejecutar el pipeline con un dataset nuevo y justificar los rechazos.
+Ejecutar el pipeline con un dataset nuevo y justificar los rechazos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Evaluar fase 2 y documentar resultados.
-- **Herramientas:** Python 3 + VS Code + SQLite
-- **Evidencia verificable:** Evaluación, pruebas y README actualizado.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Evaluar fase 2 y documentar resultados.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Ejecutar el pipeline con un dataset nuevo y justificar los rechazos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Evaluación, pruebas y README actualizado.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 36 (Fase 2 y documentar resultados). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Ejecutar el pipeline con un dataset nuevo y justificar los rechazos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Evaluación, pruebas y README actualizado.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 36](evaluaciones.md#evaluación-día-36)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Evaluación, pruebas y README actualizado.
+> Actúa como mi tutor técnico para el Día 36. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Evaluar fase 2 y documentar resultados. La práctica es: Ejecutar el pipeline con un dataset nuevo y justificar los rechazos. La evidencia que debo producir es: Evaluación, pruebas y README actualizado. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 36](evaluaciones.md#evaluación-día-36).
 
 ---
 
 # Día 37 — Granularidad y modelo dimensional
 
-**🎯 Objetivo:** Definir granularidad y modelo dimensional.
+**Objetivo de aprendizaje:** Definir granularidad y modelo dimensional.
 
-**📚 Teoría:** [Microsoft Learn: star schema](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema)
+**Teoría y recurso:** [Microsoft Learn: star schema](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Definir hechos y dimensiones para observaciones de precio.
+Definir hechos y dimensiones para observaciones de precio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Definir granularidad y modelo dimensional.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Diagrama y declaración de granularidad.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Definir granularidad y modelo dimensional.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Definir hechos y dimensiones para observaciones de precio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama y declaración de granularidad.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 37 (Granularidad y modelo dimensional). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Definir hechos y dimensiones para observaciones de precio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama y declaración de granularidad.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 37](evaluaciones.md#evaluación-día-37)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama y declaración de granularidad.
+> Actúa como mi tutor técnico para el Día 37. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Definir granularidad y modelo dimensional. La práctica es: Definir hechos y dimensiones para observaciones de precio. La evidencia que debo producir es: Diagrama y declaración de granularidad. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 37](evaluaciones.md#evaluación-día-37).
 
 ---
 
 # Día 38 — Relaciones y cardinalidad correctamente
 
-**🎯 Objetivo:** Configurar relaciones y cardinalidad correctamente.
+**Objetivo de aprendizaje:** Configurar relaciones y cardinalidad correctamente.
 
-**📚 Teoría:** [Microsoft Learn: relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)
+**Teoría y recurso:** [Microsoft Learn: relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Analizar claves duplicadas y elegir dirección de filtro.
+Analizar claves duplicadas y elegir dirección de filtro.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Configurar relaciones y cardinalidad correctamente.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Diagrama de relaciones y pruebas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Configurar relaciones y cardinalidad correctamente.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Analizar claves duplicadas y elegir dirección de filtro.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama de relaciones y pruebas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 38 (Relaciones y cardinalidad correctamente). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Analizar claves duplicadas y elegir dirección de filtro. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama de relaciones y pruebas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 38](evaluaciones.md#evaluación-día-38)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama de relaciones y pruebas.
+> Actúa como mi tutor técnico para el Día 38. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Configurar relaciones y cardinalidad correctamente. La práctica es: Analizar claves duplicadas y elegir dirección de filtro. La evidencia que debo producir es: Diagrama de relaciones y pruebas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 38](evaluaciones.md#evaluación-día-38).
 
 ---
 
 # Día 39 — Datos reproduciblemente con Power Query
 
-**🎯 Objetivo:** Transformar datos reproduciblemente con Power Query.
+**Objetivo de aprendizaje:** Transformar datos reproduciblemente con Power Query.
 
-**📚 Teoría:** [Microsoft Learn: Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query)
+**Teoría y recurso:** [Microsoft Learn: Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Documentar tipos, nulos, duplicados y pasos aplicados.
+Documentar tipos, nulos, duplicados y pasos aplicados.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Transformar datos reproduciblemente con Power Query.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Pasos de transformación y conteos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Transformar datos reproduciblemente con Power Query.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Documentar tipos, nulos, duplicados y pasos aplicados.
+- Puedes justificar la evidencia que guardas y qué demuestra: Pasos de transformación y conteos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 39 (Datos reproduciblemente con Power Query). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Documentar tipos, nulos, duplicados y pasos aplicados. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Pasos de transformación y conteos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 39](evaluaciones.md#evaluación-día-39)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Pasos de transformación y conteos.
+> Actúa como mi tutor técnico para el Día 39. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Transformar datos reproduciblemente con Power Query. La práctica es: Documentar tipos, nulos, duplicados y pasos aplicados. La evidencia que debo producir es: Pasos de transformación y conteos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 39](evaluaciones.md#evaluación-día-39).
 
 ---
 
-# Día 40 — Comprender medidas DAX y contexto de filtro
+# Día 40 — Medidas DAX y contexto de filtro
 
-**🎯 Objetivo:** Comprender medidas DAX y contexto de filtro.
+**Objetivo de aprendizaje:** Comprender medidas DAX y contexto de filtro.
 
-**📚 Teoría:** [Microsoft Learn: DAX overview](https://learn.microsoft.com/en-us/dax/dax-overview)
+**Teoría y recurso:** [Microsoft Learn: DAX overview](https://learn.microsoft.com/en-us/dax/dax-overview)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Crear medidas sencillas y comparar medida con columna calculada.
+Crear medidas sencillas y comparar medida con columna calculada.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Comprender medidas DAX y contexto de filtro.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Medidas y resultados explicados.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Comprender medidas DAX y contexto de filtro.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear medidas sencillas y comparar medida con columna calculada.
+- Puedes justificar la evidencia que guardas y qué demuestra: Medidas y resultados explicados.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 40 (Comprender medidas DAX y contexto de filtro). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear medidas sencillas y comparar medida con columna calculada. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Medidas y resultados explicados.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 40](evaluaciones.md#evaluación-día-40)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Medidas y resultados explicados.
+> Actúa como mi tutor técnico para el Día 40. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Comprender medidas DAX y contexto de filtro. La práctica es: Crear medidas sencillas y comparar medida con columna calculada. La evidencia que debo producir es: Medidas y resultados explicados. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 40](evaluaciones.md#evaluación-día-40).
 
 ---
 
 # Día 41 — Métricas de precios y variaciones
 
-**🎯 Objetivo:** Calcular métricas de precios y variaciones.
+**Objetivo de aprendizaje:** Calcular métricas de precios y variaciones.
 
-**📚 Teoría:** [DAX function reference](https://learn.microsoft.com/en-us/dax/)
+**Teoría y recurso:** [DAX function reference](https://learn.microsoft.com/en-us/dax/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Calcular mínimo, máximo, promedio y cambio entre observaciones comparables.
+Calcular mínimo, máximo, promedio y cambio entre observaciones comparables.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Calcular métricas de precios y variaciones.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Diccionario de métricas y cálculo manual.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Calcular métricas de precios y variaciones.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Calcular mínimo, máximo, promedio y cambio entre observaciones comparables.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diccionario de métricas y cálculo manual.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 41 (Métricas de precios y variaciones). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Calcular mínimo, máximo, promedio y cambio entre observaciones comparables. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diccionario de métricas y cálculo manual.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 41](evaluaciones.md#evaluación-día-41)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diccionario de métricas y cálculo manual.
+> Actúa como mi tutor técnico para el Día 41. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Calcular métricas de precios y variaciones. La práctica es: Calcular mínimo, máximo, promedio y cambio entre observaciones comparables. La evidencia que debo producir es: Diccionario de métricas y cálculo manual. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 41](evaluaciones.md#evaluación-día-41).
 
 ---
 
 # Día 42 — Indicadores y detectar errores de calidad
 
-**🎯 Objetivo:** Conciliar indicadores y detectar errores de calidad.
+**Objetivo de aprendizaje:** Conciliar indicadores y detectar errores de calidad.
 
-**📚 Teoría:** [Microsoft Learn: data reduction](https://learn.microsoft.com/en-us/power-bi/guidance/import-modeling-data-reduction)
+**Teoría y recurso:** [Microsoft Learn: data reduction](https://learn.microsoft.com/en-us/power-bi/guidance/import-modeling-data-reduction)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Comparar resultados del modelo con SQL/hoja de cálculo independiente.
+Comparar resultados del modelo con SQL/hoja de cálculo independiente.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Conciliar indicadores y detectar errores de calidad.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Conciliación y diferencias explicadas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Conciliar indicadores y detectar errores de calidad.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Comparar resultados del modelo con SQL/hoja de cálculo independiente.
+- Puedes justificar la evidencia que guardas y qué demuestra: Conciliación y diferencias explicadas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 42 (Indicadores y detectar errores de calidad). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Comparar resultados del modelo con SQL/hoja de cálculo independiente. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Conciliación y diferencias explicadas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 42](evaluaciones.md#evaluación-día-42)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Conciliación y diferencias explicadas.
+> Actúa como mi tutor técnico para el Día 42. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Conciliar indicadores y detectar errores de calidad. La práctica es: Comparar resultados del modelo con SQL/hoja de cálculo independiente. La evidencia que debo producir es: Conciliación y diferencias explicadas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 42](evaluaciones.md#evaluación-día-42).
 
 ---
 
 # Día 43 — Páginas orientadas a preguntas analíticas
 
-**🎯 Objetivo:** Diseñar páginas orientadas a preguntas analíticas.
+**Objetivo de aprendizaje:** Diseñar páginas orientadas a preguntas analíticas.
 
-**📚 Teoría:** [Microsoft Learn: report design](https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips)
+**Teoría y recurso:** [Microsoft Learn: report design](https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Bocetar una página de resumen y una de detalle con jerarquía visual.
+Bocetar una página de resumen y una de detalle con jerarquía visual.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Diseñar páginas orientadas a preguntas analíticas.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Wireframe y preguntas que responde.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Diseñar páginas orientadas a preguntas analíticas.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Bocetar una página de resumen y una de detalle con jerarquía visual.
+- Puedes justificar la evidencia que guardas y qué demuestra: Wireframe y preguntas que responde.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 43 (Páginas orientadas a preguntas analíticas). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Bocetar una página de resumen y una de detalle con jerarquía visual. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Wireframe y preguntas que responde.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 43](evaluaciones.md#evaluación-día-43)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Wireframe y preguntas que responde.
+> Actúa como mi tutor técnico para el Día 43. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Diseñar páginas orientadas a preguntas analíticas. La práctica es: Bocetar una página de resumen y una de detalle con jerarquía visual. La evidencia que debo producir es: Wireframe y preguntas que responde. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 43](evaluaciones.md#evaluación-día-43).
 
 ---
 
 # Día 44 — Filtros, segmentadores y navegación
 
-**🎯 Objetivo:** Usar filtros, segmentadores y navegación.
+**Objetivo de aprendizaje:** Usar filtros, segmentadores y navegación.
 
-**📚 Teoría:** [Microsoft Learn: filters](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-report-filter)
+**Teoría y recurso:** [Microsoft Learn: filters](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-report-filter)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Diseñar filtros por fecha, ciudad, tienda y producto.
+Diseñar filtros por fecha, ciudad, tienda y producto.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Usar filtros, segmentadores y navegación.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Reporte de prueba y casos de filtro.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Usar filtros, segmentadores y navegación.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Diseñar filtros por fecha, ciudad, tienda y producto.
+- Puedes justificar la evidencia que guardas y qué demuestra: Reporte de prueba y casos de filtro.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 44 (Filtros, segmentadores y navegación). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Diseñar filtros por fecha, ciudad, tienda y producto. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Reporte de prueba y casos de filtro.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 44](evaluaciones.md#evaluación-día-44)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Reporte de prueba y casos de filtro.
+> Actúa como mi tutor técnico para el Día 44. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Usar filtros, segmentadores y navegación. La práctica es: Diseñar filtros por fecha, ciudad, tienda y producto. La evidencia que debo producir es: Reporte de prueba y casos de filtro. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 44](evaluaciones.md#evaluación-día-44).
 
 ---
 
 # Día 45 — Propósito y límites de RLS
 
-**🎯 Objetivo:** Explicar propósito y límites de RLS.
+**Objetivo de aprendizaje:** Explicar propósito y límites de RLS.
 
-**📚 Teoría:** [Microsoft Learn: row-level security](https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security)
+**Teoría y recurso:** [Microsoft Learn: row-level security](https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Diseñar roles ficticios y probar filtros con datos sintéticos.
+Diseñar roles ficticios y probar filtros con datos sintéticos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Explicar propósito y límites de RLS.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Matriz RLS y casos de prueba.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Explicar propósito y límites de RLS.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Diseñar roles ficticios y probar filtros con datos sintéticos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz RLS y casos de prueba.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 45 (Propósito y límites de RLS). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Diseñar roles ficticios y probar filtros con datos sintéticos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz RLS y casos de prueba.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 45](evaluaciones.md#evaluación-día-45)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz RLS y casos de prueba.
+> Actúa como mi tutor técnico para el Día 45. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Explicar propósito y límites de RLS. La práctica es: Diseñar roles ficticios y probar filtros con datos sintéticos. La evidencia que debo producir es: Matriz RLS y casos de prueba. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 45](evaluaciones.md#evaluación-día-45).
 
 ---
 
 # Día 46 — Mínimo acceso a informes y modelos
 
-**🎯 Objetivo:** Aplicar mínimo acceso a informes y modelos.
+**Objetivo de aprendizaje:** Aplicar mínimo acceso a informes y modelos.
 
-**📚 Teoría:** [Microsoft Learn: permissions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
+**Teoría y recurso:** [Microsoft Learn: permissions](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Comparar roles de workspace, permisos de modelo y compartir reportes.
+Comparar roles de workspace, permisos de modelo y compartir reportes.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Aplicar mínimo acceso a informes y modelos.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Matriz de acceso y riesgos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Aplicar mínimo acceso a informes y modelos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Comparar roles de workspace, permisos de modelo y compartir reportes.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de acceso y riesgos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 46 (Mínimo acceso a informes y modelos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Comparar roles de workspace, permisos de modelo y compartir reportes. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz de acceso y riesgos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 46](evaluaciones.md#evaluación-día-46)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz de acceso y riesgos.
+> Actúa como mi tutor técnico para el Día 46. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Aplicar mínimo acceso a informes y modelos. La práctica es: Comparar roles de workspace, permisos de modelo y compartir reportes. La evidencia que debo producir es: Matriz de acceso y riesgos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 46](evaluaciones.md#evaluación-día-46).
 
 ---
 
 # Día 47 — Campos y reducir exposición
 
-**🎯 Objetivo:** Clasificar campos y reducir exposición.
+**Objetivo de aprendizaje:** Clasificar campos y reducir exposición.
 
-**📚 Teoría:** [Microsoft Learn: sensitivity labels](https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-sensitivity-label-overview)
+**Teoría y recurso:** [Microsoft Learn: sensitivity labels](https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-sensitivity-label-overview)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Clasificar campos ficticios y decidir cuáles son necesarios para el análisis.
+Clasificar campos ficticios y decidir cuáles son necesarios para el análisis.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Clasificar campos y reducir exposición.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Inventario de campos y justificación.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Clasificar campos y reducir exposición.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Clasificar campos ficticios y decidir cuáles son necesarios para el análisis.
+- Puedes justificar la evidencia que guardas y qué demuestra: Inventario de campos y justificación.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 47 (Campos y reducir exposición). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Clasificar campos ficticios y decidir cuáles son necesarios para el análisis. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Inventario de campos y justificación.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 47](evaluaciones.md#evaluación-día-47)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Inventario de campos y justificación.
+> Actúa como mi tutor técnico para el Día 47. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Clasificar campos y reducir exposición. La práctica es: Clasificar campos ficticios y decidir cuáles son necesarios para el análisis. La evidencia que debo producir es: Inventario de campos y justificación. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 47](evaluaciones.md#evaluación-día-47).
 
 ---
 
 # Día 48 — Anonimización y seudonimización
 
-**🎯 Objetivo:** Diferenciar anonimización y seudonimización.
+**Objetivo de aprendizaje:** Diferenciar anonimización y seudonimización.
 
-**📚 Teoría:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+**Teoría y recurso:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Transformar identificadores ficticios y discutir riesgo de reidentificación.
+Transformar identificadores ficticios y discutir riesgo de reidentificación.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Diferenciar anonimización y seudonimización.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Ejemplo y límites documentados.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Diferenciar anonimización y seudonimización.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Transformar identificadores ficticios y discutir riesgo de reidentificación.
+- Puedes justificar la evidencia que guardas y qué demuestra: Ejemplo y límites documentados.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 48 (Anonimización y seudonimización). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Transformar identificadores ficticios y discutir riesgo de reidentificación. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Ejemplo y límites documentados.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 48](evaluaciones.md#evaluación-día-48)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Ejemplo y límites documentados.
+> Actúa como mi tutor técnico para el Día 48. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Diferenciar anonimización y seudonimización. La práctica es: Transformar identificadores ficticios y discutir riesgo de reidentificación. La evidencia que debo producir es: Ejemplo y límites documentados. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 48](evaluaciones.md#evaluación-día-48).
 
 ---
 
 # Día 49 — Riesgos de exportación y compartición
 
-**🎯 Objetivo:** Evaluar riesgos de exportación y compartición.
+**Objetivo de aprendizaje:** Evaluar riesgos de exportación y compartición.
 
-**📚 Teoría:** [Microsoft Learn: export data](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data)
+**Teoría y recurso:** [Microsoft Learn: export data](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Crear escenarios de exportación y controles de distribución.
+Crear escenarios de exportación y controles de distribución.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Evaluar riesgos de exportación y compartición.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Matriz escenario/control.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Evaluar riesgos de exportación y compartición.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear escenarios de exportación y controles de distribución.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz escenario/control.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 49 (Riesgos de exportación y compartición). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear escenarios de exportación y controles de distribución. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz escenario/control.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 49](evaluaciones.md#evaluación-día-49)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz escenario/control.
+> Actúa como mi tutor técnico para el Día 49. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Evaluar riesgos de exportación y compartición. La práctica es: Crear escenarios de exportación y controles de distribución. La evidencia que debo producir es: Matriz escenario/control. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 49](evaluaciones.md#evaluación-día-49).
 
 ---
 
 # Día 50 — Definiciones, medidas y propietarios
 
-**🎯 Objetivo:** Documentar definiciones, medidas y propietarios.
+**Objetivo de aprendizaje:** Documentar definiciones, medidas y propietarios.
 
-**📚 Teoría:** [Microsoft Learn: semantic models](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand)
+**Teoría y recurso:** [Microsoft Learn: semantic models](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Crear diccionario de métricas con fórmula, propósito y limitaciones.
+Crear diccionario de métricas con fórmula, propósito y limitaciones.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Documentar definiciones, medidas y propietarios.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Diccionario de datos y métricas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Documentar definiciones, medidas y propietarios.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear diccionario de métricas con fórmula, propósito y limitaciones.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diccionario de datos y métricas.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 50 (Definiciones, medidas y propietarios). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear diccionario de métricas con fórmula, propósito y limitaciones. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diccionario de datos y métricas.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 50](evaluaciones.md#evaluación-día-50)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diccionario de datos y métricas.
+> Actúa como mi tutor técnico para el Día 50. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Documentar definiciones, medidas y propietarios. La práctica es: Crear diccionario de métricas con fórmula, propósito y limitaciones. La evidencia que debo producir es: Diccionario de datos y métricas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 50](evaluaciones.md#evaluación-día-50).
 
 ---
 
 # Día 51 — Accesibilidad, claridad y usabilidad
 
-**🎯 Objetivo:** Revisar accesibilidad, claridad y usabilidad.
+**Objetivo de aprendizaje:** Revisar accesibilidad, claridad y usabilidad.
 
-**📚 Teoría:** [Microsoft Learn: report accessibility](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports)
+**Teoría y recurso:** [Microsoft Learn: report accessibility](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Evaluar títulos, contraste, orden de lectura y alternativas a color.
+Evaluar títulos, contraste, orden de lectura y alternativas a color.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Revisar accesibilidad, claridad y usabilidad.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Checklist de accesibilidad y mejoras.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Revisar accesibilidad, claridad y usabilidad.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Evaluar títulos, contraste, orden de lectura y alternativas a color.
+- Puedes justificar la evidencia que guardas y qué demuestra: Checklist de accesibilidad y mejoras.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 51 (Accesibilidad, claridad y usabilidad). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Evaluar títulos, contraste, orden de lectura y alternativas a color. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Checklist de accesibilidad y mejoras.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 51](evaluaciones.md#evaluación-día-51)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Checklist de accesibilidad y mejoras.
+> Actúa como mi tutor técnico para el Día 51. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Revisar accesibilidad, claridad y usabilidad. La práctica es: Evaluar títulos, contraste, orden de lectura y alternativas a color. La evidencia que debo producir es: Checklist de accesibilidad y mejoras. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 51](evaluaciones.md#evaluación-día-51).
 
 ---
 
 # Día 52 — Fase 3 y revisar modelo
 
-**🎯 Objetivo:** Evaluar fase 3 y revisar modelo.
+**Objetivo de aprendizaje:** Evaluar fase 3 y revisar modelo.
 
-**📚 Teoría:** Revisión de recursos de sesiones 37–51.
+**Teoría y recurso:** Revisión de recursos de sesiones 37–51.
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
 
-Herramientas: Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Defender el modelo, reconciliar 3 métricas y explicar límites de seguridad.
+Defender el modelo, reconciliar 3 métricas y explicar límites de seguridad.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Evaluar fase 3 y revisar modelo.
-- **Herramientas:** Power BI Desktop (gratuito, en Windows) + archivos CSV; SQLite/LibreOffice Calc para conciliación cuando corresponda
-- **Evidencia verificable:** Evaluación y paquete de evidencia.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Evaluar fase 3 y revisar modelo.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Defender el modelo, reconciliar 3 métricas y explicar límites de seguridad.
+- Puedes justificar la evidencia que guardas y qué demuestra: Evaluación y paquete de evidencia.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 52 (Fase 3 y revisar modelo). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Defender el modelo, reconciliar 3 métricas y explicar límites de seguridad. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Evaluación y paquete de evidencia.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 52](evaluaciones.md#evaluación-día-52)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Evaluación y paquete de evidencia.
+> Actúa como mi tutor técnico para el Día 52. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Evaluar fase 3 y revisar modelo. La práctica es: Defender el modelo, reconciliar 3 métricas y explicar límites de seguridad. La evidencia que debo producir es: Evaluación y paquete de evidencia. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 52](evaluaciones.md#evaluación-día-52).
 
 ---
 
 # Día 53 — Un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente
 
-**🎯 Objetivo:** Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente.
+**Objetivo de aprendizaje:** Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente.
 
-**📚 Teoría:** [MITRE ATT&CK T1110.001](https://attack.mitre.org/techniques/T1110/001/), [guía del laboratorio](../labs/phase-04-log-analysis/attack-context.md)
+**Teoría y recurso:** [MITRE ATT&CK T1110.001](https://attack.mitre.org/techniques/T1110/001/), [guía del laboratorio](../labs/phase-04-log-analysis/attack-context.md)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
 
-Herramientas: Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
+**Práctica guiada (35 min):**
 
-1. Analizar el fallo SSH sintético que Wazuh 4.9.0 asoció con la regla 5710 (nivel 5) y T1110.001 — Password Guessing. Separar log observado, etiqueta y conclusión.
+Analizar el fallo SSH sintético que Wazuh 4.9.0 asoció con la regla 5710 (nivel 5) y T1110.001 — Password Guessing. Separar log observado, etiqueta y conclusión.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente.
-- **Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-- **Evidencia verificable:** Ficha del evento con regla, nivel, técnica, confianza y evidencia faltante.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Analizar el fallo SSH sintético que Wazuh 4.9.0 asoció con la regla 5710 (nivel 5) y T1110.001 — Password Guessing. Separar log observado, etiqueta y conclusión.
+- Puedes justificar la evidencia que guardas y qué demuestra: Ficha del evento con regla, nivel, técnica, confianza y evidencia faltante.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 53 (Un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Analizar el fallo SSH sintético que Wazuh 4.9.0 asoció con la regla 5710 (nivel 5) y T1110.001 — Password Guessing. Separar log observado, etiqueta y conclusión. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Ficha del evento con regla, nivel, técnica, confianza y evidencia faltante.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 53](evaluaciones.md#evaluación-día-53)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Ficha del evento con regla, nivel, técnica, confianza y evidencia faltante.
+> Actúa como mi tutor técnico para el Día 53. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente. La práctica es: Analizar el fallo SSH sintético que Wazuh 4.9.0 asoció con la regla 5710 (nivel 5) y T1110.001 — Password Guessing. Separar log observado, etiqueta y conclusión. La evidencia que debo producir es: Ficha del evento con regla, nivel, técnica, confianza y evidencia faltante. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 53](evaluaciones.md#evaluación-día-53).
 
 ---
 
 # Día 54 — El mapeo log → técnica ATT&CK a partir de la alerta validada
 
-**🎯 Objetivo:** Construir el mapeo log → técnica ATT&CK a partir de la alerta validada.
+**Objetivo de aprendizaje:** Construir el mapeo log → técnica ATT&CK a partir de la alerta validada.
 
-**📚 Teoría:** [MITRE ATT&CK T1110.001](https://attack.mitre.org/techniques/T1110/001/), [guía del laboratorio](../labs/phase-04-log-analysis/attack-context.md)
+**Teoría y recurso:** [MITRE ATT&CK T1110.001](https://attack.mitre.org/techniques/T1110/001/), [guía del laboratorio](../labs/phase-04-log-analysis/attack-context.md)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
 
-Herramientas: Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
+**Práctica guiada (35 min):**
 
-1. Completar SSH-01: fallo SSH → Credential Access → T1110.001.
-2. verificar `rule.mitre.id` y registrar `srcip` / `srcuser`.
+Completar SSH-01: fallo SSH → Credential Access → T1110.001; verificar `rule.mitre.id` y registrar `srcip` / `srcuser`.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Construir el mapeo log → técnica ATT&CK a partir de la alerta validada.
-- **Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-- **Evidencia verificable:** Tabla/CSV con evento, regla 5710, nivel 5, técnica, fuente, confianza y datos faltantes.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Construir el mapeo log → técnica ATT&CK a partir de la alerta validada.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Completar SSH-01: fallo SSH → Credential Access → T1110.001; verificar `rule.mitre.id` y registrar `srcip` / `srcuser`.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla/CSV con evento, regla 5710, nivel 5, técnica, fuente, confianza y datos faltantes.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 54 (El mapeo log → técnica ATT&CK a partir de la alerta validada). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Completar SSH-01: fallo SSH → Credential Access → T1110.001; verificar `rule.mitre.id` y registrar `srcip` / `srcuser`. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla/CSV con evento, regla 5710, nivel 5, técnica, fuente, confianza y datos faltantes.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 54](evaluaciones.md#evaluación-día-54)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla/CSV con evento, regla 5710, nivel 5, técnica, fuente, confianza y datos faltantes.
+> Actúa como mi tutor técnico para el Día 54. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Construir el mapeo log → técnica ATT&CK a partir de la alerta validada. La práctica es: Completar SSH-01: fallo SSH → Credential Access → T1110.001; verificar `rule.mitre.id` y registrar `srcip` / `srcuser`. La evidencia que debo producir es: Tabla/CSV con evento, regla 5710, nivel 5, técnica, fuente, confianza y datos faltantes. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
 
----
-
-# Día 55 — En Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos
-
-**🎯 Objetivo:** Consultar en Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos.
-
-**📚 Teoría:** [Checklist SIEM](../templates/lab-validation-checklist.md), [Wazuh 4.9 documentation](https://documentation.wazuh.com/4.9/)
-
-**🛠️ Práctica Guiada:**
-
-Herramientas: Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-
-1. En Discover, filtrar la alerta de regla 5710 y revisar `srcip`, `srcuser`, `rule.id`, `rule.level` y `rule.mitre.id`.
-
-**💡 Conceptos Clave:**
-
-- **Objetivo de aprendizaje:** Consultar en Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos.
-- **Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-- **Evidencia verificable:** Captura saneada y tabla de campos con valores observados; no inventar valores si no aparecen.
-
-## 🏁 Evaluación y Evidencia
-
-**Paso 1: Copia este prompt en un Chat de IA:**
-
-> Actúa como mi Tutor Técnico. Estoy en el Día 55 (En Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: En Discover, filtrar la alerta de regla 5710 y revisar `srcip`, `srcuser`, `rule.id`, `rule.level` y `rule.mitre.id`. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
-
-**Paso 2: Guarda tu evidencia:**
-
-👉 **[Ir a Evaluaciones Día 55](evaluaciones.md#evaluación-día-55)**
-
-Evidencia esperada según el plan: Captura saneada y tabla de campos con valores observados; no inventar valores si no aparecen.
+**Registrar resultado:** [Evaluación del Día 54](evaluaciones.md#evaluación-día-54).
 
 ---
 
-# Día 56 — Y agregar alertas Wazuh por IP, usuario y técnica
+# Día 55 — Consultar en Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos
 
-**🎯 Objetivo:** Consultar y agregar alertas Wazuh por IP, usuario y técnica.
+**Objetivo de aprendizaje:** Consultar en Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos.
 
-**📚 Teoría:** [Wazuh 4.9 documentation](https://documentation.wazuh.com/4.9/)
+**Teoría y recurso:** [Checklist SIEM](../templates/lab-validation-checklist.md), [Wazuh 4.9 documentation](https://documentation.wazuh.com/4.9/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
 
-Herramientas: Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
+**Práctica guiada (35 min):**
 
-1. Usar filtros `rule.id:5710` y `rule.mitre.id:T1110.001`.
-2. agrupar por `srcip` y `srcuser`.
+En Discover, filtrar la alerta de regla 5710 y revisar `srcip`, `srcuser`, `rule.id`, `rule.level` y `rule.mitre.id`.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Consultar y agregar alertas Wazuh por IP, usuario y técnica.
-- **Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-- **Evidencia verificable:** Consultas guardadas y tabla agregada; conciliación con el evento sintético.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Consultar en Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: En Discover, filtrar la alerta de regla 5710 y revisar `srcip`, `srcuser`, `rule.id`, `rule.level` y `rule.mitre.id`.
+- Puedes justificar la evidencia que guardas y qué demuestra: Captura saneada y tabla de campos con valores observados; no inventar valores si no aparecen.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 56 (Y agregar alertas Wazuh por IP, usuario y técnica). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Usar filtros `rule.id:5710` y `rule.mitre.id:T1110.001`; agrupar por `srcip` y `srcuser`. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Captura saneada y tabla de campos con valores observados; no inventar valores si no aparecen.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 56](evaluaciones.md#evaluación-día-56)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Consultas guardadas y tabla agregada; conciliación con el evento sintético.
+> Actúa como mi tutor técnico para el Día 55. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Consultar en Wazuh la alerta de fallo SSH ya ingerida y documentar sus campos. La práctica es: En Discover, filtrar la alerta de regla 5710 y revisar `srcip`, `srcuser`, `rule.id`, `rule.level` y `rule.mitre.id`. La evidencia que debo producir es: Captura saneada y tabla de campos con valores observados; no inventar valores si no aparecen. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 55](evaluaciones.md#evaluación-día-55).
+
+---
+
+# Día 56 — Consultar y agregar alertas Wazuh por IP, usuario y técnica
+
+**Objetivo de aprendizaje:** Consultar y agregar alertas Wazuh por IP, usuario y técnica.
+
+**Teoría y recurso:** [Wazuh 4.9 documentation](https://documentation.wazuh.com/4.9/)
+
+**Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
+
+**Práctica guiada (35 min):**
+
+Usar filtros `rule.id:5710` y `rule.mitre.id:T1110.001`; agrupar por `srcip` y `srcuser`.
+
+**Ejercicio individual (15 min):**
+
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
+
+**Criterios de dominio:**
+
+- Puedes explicar con tus palabras el objetivo: Consultar y agregar alertas Wazuh por IP, usuario y técnica.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Usar filtros `rule.id:5710` y `rule.mitre.id:T1110.001`; agrupar por `srcip` y `srcuser`.
+- Puedes justificar la evidencia que guardas y qué demuestra: Consultas guardadas y tabla agregada; conciliación con el evento sintético.
+
+**Evidencia verificable:** Consultas guardadas y tabla agregada; conciliación con el evento sintético.
+
+## Evaluación interactiva
+
+Copia este prompt en un chat de IA:
+
+> Actúa como mi tutor técnico para el Día 56. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Consultar y agregar alertas Wazuh por IP, usuario y técnica. La práctica es: Usar filtros `rule.id:5710` y `rule.mitre.id:T1110.001`; agrupar por `srcip` y `srcuser`. La evidencia que debo producir es: Consultas guardadas y tabla agregada; conciliación con el evento sintético. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 56](evaluaciones.md#evaluación-día-56).
 
 ---
 
 # Día 57 — Calidad de los documentos de alerta Wazuh
 
-**🎯 Objetivo:** Evaluar calidad de los documentos de alerta Wazuh.
+**Objetivo de aprendizaje:** Evaluar calidad de los documentos de alerta Wazuh.
 
-**📚 Teoría:** [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html), [Wazuh 4.9 documentation](https://documentation.wazuh.com/4.9/)
+**Teoría y recurso:** [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html), [Wazuh 4.9 documentation](https://documentation.wazuh.com/4.9/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
 
-Herramientas: Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
+**Práctica guiada (35 min):**
 
-1. Medir completitud de `srcip`, `srcuser`, `rule.mitre.id`.
-2. revisar nulos, duplicados y formatos inconsistentes.
+Medir completitud de `srcip`, `srcuser`, `rule.mitre.id`; revisar nulos, duplicados y formatos inconsistentes.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Evaluar calidad de los documentos de alerta Wazuh.
-- **Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-- **Evidencia verificable:** Reporte de calidad con denominadores, excepciones y conteos antes/después.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Evaluar calidad de los documentos de alerta Wazuh.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Medir completitud de `srcip`, `srcuser`, `rule.mitre.id`; revisar nulos, duplicados y formatos inconsistentes.
+- Puedes justificar la evidencia que guardas y qué demuestra: Reporte de calidad con denominadores, excepciones y conteos antes/después.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 57 (Calidad de los documentos de alerta Wazuh). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Medir completitud de `srcip`, `srcuser`, `rule.mitre.id`; revisar nulos, duplicados y formatos inconsistentes. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Reporte de calidad con denominadores, excepciones y conteos antes/después.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 57](evaluaciones.md#evaluación-día-57)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Reporte de calidad con denominadores, excepciones y conteos antes/después.
+> Actúa como mi tutor técnico para el Día 57. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Evaluar calidad de los documentos de alerta Wazuh. La práctica es: Medir completitud de `srcip`, `srcuser`, `rule.mitre.id`; revisar nulos, duplicados y formatos inconsistentes. La evidencia que debo producir es: Reporte de calidad con denominadores, excepciones y conteos antes/después. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 57](evaluaciones.md#evaluación-día-57).
 
 ---
 
 # Día 58 — Dashboard de reporting sobre la alerta SSH y sus dimensiones
 
-**🎯 Objetivo:** Construir dashboard de reporting sobre la alerta SSH y sus dimensiones.
+**Objetivo de aprendizaje:** Construir dashboard de reporting sobre la alerta SSH y sus dimensiones.
 
-**📚 Teoría:** [Wazuh Dashboard documentation](https://documentation.wazuh.com/4.9/user-manual/wazuh-dashboard/index.html), [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [Wazuh Dashboard documentation](https://documentation.wazuh.com/4.9/user-manual/wazuh-dashboard/index.html), [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
 
-Herramientas: Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
+**Práctica guiada (35 min):**
 
-1. Visualizar alertas por periodo, regla/nivel, `srcip`, `srcuser` y `rule.mitre.id`.
-2. incluir filtro de regla 5710.
+Visualizar alertas por periodo, regla/nivel, `srcip`, `srcuser` y `rule.mitre.id`; incluir filtro de regla 5710.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Construir dashboard de reporting sobre la alerta SSH y sus dimensiones.
-- **Herramientas:** Docker Desktop + navegador web (Chrome o Firefox) + Wazuh Dashboard 4.9.0
-- **Evidencia verificable:** Dashboard/capturas saneadas y diccionario de métricas con límites.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Construir dashboard de reporting sobre la alerta SSH y sus dimensiones.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Visualizar alertas por periodo, regla/nivel, `srcip`, `srcuser` y `rule.mitre.id`; incluir filtro de regla 5710.
+- Puedes justificar la evidencia que guardas y qué demuestra: Dashboard/capturas saneadas y diccionario de métricas con límites.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 58 (Dashboard de reporting sobre la alerta SSH y sus dimensiones). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Visualizar alertas por periodo, regla/nivel, `srcip`, `srcuser` y `rule.mitre.id`; incluir filtro de regla 5710. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Dashboard/capturas saneadas y diccionario de métricas con límites.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 58](evaluaciones.md#evaluación-día-58)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Dashboard/capturas saneadas y diccionario de métricas con límites.
+> Actúa como mi tutor técnico para el Día 58. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Construir dashboard de reporting sobre la alerta SSH y sus dimensiones. La práctica es: Visualizar alertas por periodo, regla/nivel, `srcip`, `srcuser` y `rule.mitre.id`; incluir filtro de regla 5710. La evidencia que debo producir es: Dashboard/capturas saneadas y diccionario de métricas con límites. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
 
----
-
-# Día 59 — Y agregar eventos
-
-**🎯 Objetivo:** Filtrar y agregar eventos.
-
-**📚 Teoría:** Documentación de consulta de la plataforma validada
-
-**🛠️ Práctica Guiada:**
-
-Herramientas: Wazuh Dashboard 4.9.0 en navegador web
-
-1. Contar eventos por tipo, resultado y alias ficticio.
-
-**💡 Conceptos Clave:**
-
-- **Objetivo de aprendizaje:** Filtrar y agregar eventos.
-- **Herramientas:** Wazuh Dashboard 4.9.0 en navegador web
-- **Evidencia verificable:** Consulta, tabla agregada y conciliación.
-
-## 🏁 Evaluación y Evidencia
-
-**Paso 1: Copia este prompt en un Chat de IA:**
-
-> Actúa como mi Tutor Técnico. Estoy en el Día 59 (Y agregar eventos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Contar eventos por tipo, resultado y alias ficticio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
-
-**Paso 2: Guarda tu evidencia:**
-
-👉 **[Ir a Evaluaciones Día 59](evaluaciones.md#evaluación-día-59)**
-
-Evidencia esperada según el plan: Consulta, tabla agregada y conciliación.
+**Registrar resultado:** [Evaluación del Día 58](evaluaciones.md#evaluación-día-58).
 
 ---
 
-# Día 60 — Comportamiento por ventanas temporales
+# Día 59 — Filtrar y agregar eventos
 
-**🎯 Objetivo:** Resumir comportamiento por ventanas temporales.
+**Objetivo de aprendizaje:** Filtrar y agregar eventos.
 
-**📚 Teoría:** [Python datetime](https://docs.python.org/3/library/datetime.html)
+**Teoría y recurso:** Documentación de consulta de la plataforma validada
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Wazuh Dashboard 4.9.0 en navegador web
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Agrupar fallos sintéticos por alias y ventana de diez minutos.
+Contar eventos por tipo, resultado y alias ficticio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Resumir comportamiento por ventanas temporales.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Tabla temporal con conteos y parámetros.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Filtrar y agregar eventos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Contar eventos por tipo, resultado y alias ficticio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Consulta, tabla agregada y conciliación.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 60 (Comportamiento por ventanas temporales). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Agrupar fallos sintéticos por alias y ventana de diez minutos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Consulta, tabla agregada y conciliación.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 60](evaluaciones.md#evaluación-día-60)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla temporal con conteos y parámetros.
+> Actúa como mi tutor técnico para el Día 59. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Filtrar y agregar eventos. La práctica es: Contar eventos por tipo, resultado y alias ficticio. La evidencia que debo producir es: Consulta, tabla agregada y conciliación. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
 
----
-
-# Día 61 — Cuantificar coincidencias y falsos positivos potenciales
-
-**🎯 Objetivo:** Cuantificar coincidencias y falsos positivos potenciales.
-
-**📚 Teoría:** [Google SRE: Monitoring](https://sre.google/sre-book/monitoring-distributed-systems/)
-
-**🛠️ Práctica Guiada:**
-
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-
-1. Comparar grupos normales y atípicos en el dataset.
-
-**💡 Conceptos Clave:**
-
-- **Objetivo de aprendizaje:** Cuantificar coincidencias y falsos positivos potenciales.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Matriz de conteos y nota de limitaciones.
-
-## 🏁 Evaluación y Evidencia
-
-**Paso 1: Copia este prompt en un Chat de IA:**
-
-> Actúa como mi Tutor Técnico. Estoy en el Día 61 (Cuantificar coincidencias y falsos positivos potenciales). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Comparar grupos normales y atípicos en el dataset. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
-
-**Paso 2: Guarda tu evidencia:**
-
-👉 **[Ir a Evaluaciones Día 61](evaluaciones.md#evaluación-día-61)**
-
-Evidencia esperada según el plan: Matriz de conteos y nota de limitaciones.
+**Registrar resultado:** [Evaluación del Día 59](evaluaciones.md#evaluación-día-59).
 
 ---
 
-# Día 62 — Datos con contexto descriptivo permitido
+# Día 60 — Resumir comportamiento por ventanas temporales
 
-**🎯 Objetivo:** Enriquecer datos con contexto descriptivo permitido.
+**Objetivo de aprendizaje:** Resumir comportamiento por ventanas temporales.
 
-**📚 Teoría:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [Python datetime](https://docs.python.org/3/library/datetime.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Añadir etiquetas ficticias de activo, entorno y criticidad.
+Agrupar fallos sintéticos por alias y ventana de diez minutos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Enriquecer datos con contexto descriptivo permitido.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Dataset enriquecido y diccionario de campos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Resumir comportamiento por ventanas temporales.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Agrupar fallos sintéticos por alias y ventana de diez minutos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla temporal con conteos y parámetros.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 62 (Datos con contexto descriptivo permitido). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Añadir etiquetas ficticias de activo, entorno y criticidad. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla temporal con conteos y parámetros.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 62](evaluaciones.md#evaluación-día-62)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Dataset enriquecido y diccionario de campos.
+> Actúa como mi tutor técnico para el Día 60. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Resumir comportamiento por ventanas temporales. La práctica es: Agrupar fallos sintéticos por alias y ventana de diez minutos. La evidencia que debo producir es: Tabla temporal con conteos y parámetros. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 60](evaluaciones.md#evaluación-día-60).
+
+---
+
+# Día 61 — Coincidencias y falsos positivos potenciales
+
+**Objetivo de aprendizaje:** Cuantificar coincidencias y falsos positivos potenciales.
+
+**Teoría y recurso:** [Google SRE: Monitoring](https://sre.google/sre-book/monitoring-distributed-systems/)
+
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+
+**Práctica guiada (35 min):**
+
+Comparar grupos normales y atípicos en el dataset.
+
+**Ejercicio individual (15 min):**
+
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
+
+**Criterios de dominio:**
+
+- Puedes explicar con tus palabras el objetivo: Cuantificar coincidencias y falsos positivos potenciales.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Comparar grupos normales y atípicos en el dataset.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de conteos y nota de limitaciones.
+
+**Evidencia verificable:** Matriz de conteos y nota de limitaciones.
+
+## Evaluación interactiva
+
+Copia este prompt en un chat de IA:
+
+> Actúa como mi tutor técnico para el Día 61. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Cuantificar coincidencias y falsos positivos potenciales. La práctica es: Comparar grupos normales y atípicos en el dataset. La evidencia que debo producir es: Matriz de conteos y nota de limitaciones. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 61](evaluaciones.md#evaluación-día-61).
+
+---
+
+# Día 62 — Enriquecer datos con contexto descriptivo permitido
+
+**Objetivo de aprendizaje:** Enriquecer datos con contexto descriptivo permitido.
+
+**Teoría y recurso:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+
+**Práctica guiada (35 min):**
+
+Añadir etiquetas ficticias de activo, entorno y criticidad.
+
+**Ejercicio individual (15 min):**
+
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
+
+**Criterios de dominio:**
+
+- Puedes explicar con tus palabras el objetivo: Enriquecer datos con contexto descriptivo permitido.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Añadir etiquetas ficticias de activo, entorno y criticidad.
+- Puedes justificar la evidencia que guardas y qué demuestra: Dataset enriquecido y diccionario de campos.
+
+**Evidencia verificable:** Dataset enriquecido y diccionario de campos.
+
+## Evaluación interactiva
+
+Copia este prompt en un chat de IA:
+
+> Actúa como mi tutor técnico para el Día 62. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Enriquecer datos con contexto descriptivo permitido. La práctica es: Añadir etiquetas ficticias de activo, entorno y criticidad. La evidencia que debo producir es: Dataset enriquecido y diccionario de campos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 62](evaluaciones.md#evaluación-día-62).
 
 ---
 
 # Día 63 — Secuencias temporales con claves disponibles
 
-**🎯 Objetivo:** Analizar secuencias temporales con claves disponibles.
+**Objetivo de aprendizaje:** Analizar secuencias temporales con claves disponibles.
 
-**📚 Teoría:** [Python datetime](https://docs.python.org/3/library/datetime.html)
+**Teoría y recurso:** [Python datetime](https://docs.python.org/3/library/datetime.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Agrupar por alias/request_id y revisar timestamps inválidos.
+Agrupar por alias/request_id y revisar timestamps inválidos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Analizar secuencias temporales con claves disponibles.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Tabla de secuencias y excepciones.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Analizar secuencias temporales con claves disponibles.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Agrupar por alias/request_id y revisar timestamps inválidos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de secuencias y excepciones.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 63 (Secuencias temporales con claves disponibles). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Agrupar por alias/request_id y revisar timestamps inválidos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de secuencias y excepciones.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 63](evaluaciones.md#evaluación-día-63)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de secuencias y excepciones.
+> Actúa como mi tutor técnico para el Día 63. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Analizar secuencias temporales con claves disponibles. La práctica es: Agrupar por alias/request_id y revisar timestamps inválidos. La evidencia que debo producir es: Tabla de secuencias y excepciones. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 63](evaluaciones.md#evaluación-día-63).
 
 ---
 
-# Día 64 — Patrones observados en datos de eventos
+# Día 64 — Comunicar patrones observados en datos de eventos
 
-**🎯 Objetivo:** Comunicar patrones observados en datos de eventos.
+**Objetivo de aprendizaje:** Comunicar patrones observados en datos de eventos.
 
-**📚 Teoría:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Resumir qué, cuándo, volumen, cobertura e incertidumbre.
+Resumir qué, cuándo, volumen, cobertura e incertidumbre.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Comunicar patrones observados en datos de eventos.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Informe analítico breve basado en datos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Comunicar patrones observados en datos de eventos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resumir qué, cuándo, volumen, cobertura e incertidumbre.
+- Puedes justificar la evidencia que guardas y qué demuestra: Informe analítico breve basado en datos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 64 (Patrones observados en datos de eventos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resumir qué, cuándo, volumen, cobertura e incertidumbre. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Informe analítico breve basado en datos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 64](evaluaciones.md#evaluación-día-64)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Informe analítico breve basado en datos.
+> Actúa como mi tutor técnico para el Día 64. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Comunicar patrones observados en datos de eventos. La práctica es: Resumir qué, cuándo, volumen, cobertura e incertidumbre. La evidencia que debo producir es: Informe analítico breve basado en datos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 64](evaluaciones.md#evaluación-día-64).
 
 ---
 
 # Día 65 — Escenarios con criterios de impacto documentados
 
-**🎯 Objetivo:** Comparar escenarios con criterios de impacto documentados.
+**Objetivo de aprendizaje:** Comparar escenarios con criterios de impacto documentados.
 
-**📚 Teoría:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
+**Teoría y recurso:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Analizar una tabla sintética de impacto/probabilidad y explicar supuestos.
+Analizar una tabla sintética de impacto/probabilidad y explicar supuestos.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Comparar escenarios con criterios de impacto documentados.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Matriz comparativa y resumen de criterios.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Comparar escenarios con criterios de impacto documentados.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Analizar una tabla sintética de impacto/probabilidad y explicar supuestos.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz comparativa y resumen de criterios.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 65 (Escenarios con criterios de impacto documentados). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Analizar una tabla sintética de impacto/probabilidad y explicar supuestos. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz comparativa y resumen de criterios.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 65](evaluaciones.md#evaluación-día-65)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz comparativa y resumen de criterios.
+> Actúa como mi tutor técnico para el Día 65. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Comparar escenarios con criterios de impacto documentados. La práctica es: Analizar una tabla sintética de impacto/probabilidad y explicar supuestos. La evidencia que debo producir es: Matriz comparativa y resumen de criterios. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 65](evaluaciones.md#evaluación-día-65).
 
 ---
 
 # Día 66 — La distribución y calidad de registros asociados a casos ficticios
 
-**🎯 Objetivo:** Analizar la distribución y calidad de registros asociados a casos ficticios.
+**Objetivo de aprendizaje:** Analizar la distribución y calidad de registros asociados a casos ficticios.
 
-**📚 Teoría:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Agrupar registros por caso ficticio, periodo y categoría, sin ejecutar flujos de respuesta.
+Agrupar registros por caso ficticio, periodo y categoría, sin ejecutar flujos de respuesta.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Analizar la distribución y calidad de registros asociados a casos ficticios.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Tabla de casos, cobertura y limitaciones.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Analizar la distribución y calidad de registros asociados a casos ficticios.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Agrupar registros por caso ficticio, periodo y categoría, sin ejecutar flujos de respuesta.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de casos, cobertura y limitaciones.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 66 (La distribución y calidad de registros asociados a casos ficticios). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Agrupar registros por caso ficticio, periodo y categoría, sin ejecutar flujos de respuesta. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de casos, cobertura y limitaciones.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 66](evaluaciones.md#evaluación-día-66)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de casos, cobertura y limitaciones.
+> Actúa como mi tutor técnico para el Día 66. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Analizar la distribución y calidad de registros asociados a casos ficticios. La práctica es: Agrupar registros por caso ficticio, periodo y categoría, sin ejecutar flujos de respuesta. La evidencia que debo producir es: Tabla de casos, cobertura y limitaciones. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 66](evaluaciones.md#evaluación-día-66).
 
 ---
 
 # Día 67 — Periodos de conservación por tipo de dato
 
-**🎯 Objetivo:** Comparar periodos de conservación por tipo de dato.
+**Objetivo de aprendizaje:** Comparar periodos de conservación por tipo de dato.
 
-**📚 Teoría:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Resumir volumen y antigüedad de eventos sintéticos por categoría.
+Resumir volumen y antigüedad de eventos sintéticos por categoría.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Comparar periodos de conservación por tipo de dato.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Tabla de retención propuesta y volumen estimado.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Comparar periodos de conservación por tipo de dato.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resumir volumen y antigüedad de eventos sintéticos por categoría.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de retención propuesta y volumen estimado.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 67 (Periodos de conservación por tipo de dato). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resumir volumen y antigüedad de eventos sintéticos por categoría. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de retención propuesta y volumen estimado.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 67](evaluaciones.md#evaluación-día-67)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de retención propuesta y volumen estimado.
+> Actúa como mi tutor técnico para el Día 67. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Comparar periodos de conservación por tipo de dato. La práctica es: Resumir volumen y antigüedad de eventos sintéticos por categoría. La evidencia que debo producir es: Tabla de retención propuesta y volumen estimado. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 67](evaluaciones.md#evaluación-día-67).
 
 ---
 
 # Día 68 — Exposición de campos sensibles en registros
 
-**🎯 Objetivo:** Medir exposición de campos sensibles en registros.
+**Objetivo de aprendizaje:** Medir exposición de campos sensibles en registros.
 
-**📚 Teoría:** [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+**Teoría y recurso:** [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Revisar logs sintéticos y contar campos que requieren exclusión o enmascaramiento.
+Revisar logs sintéticos y contar campos que requieren exclusión o enmascaramiento.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Medir exposición de campos sensibles en registros.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Tabla de exposición y log sintético saneado.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Medir exposición de campos sensibles en registros.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Revisar logs sintéticos y contar campos que requieren exclusión o enmascaramiento.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de exposición y log sintético saneado.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 68 (Exposición de campos sensibles en registros). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Revisar logs sintéticos y contar campos que requieren exclusión o enmascaramiento. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de exposición y log sintético saneado.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 68](evaluaciones.md#evaluación-día-68)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de exposición y log sintético saneado.
+> Actúa como mi tutor técnico para el Día 68. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Medir exposición de campos sensibles en registros. La práctica es: Revisar logs sintéticos y contar campos que requieren exclusión o enmascaramiento. La evidencia que debo producir es: Tabla de exposición y log sintético saneado. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 68](evaluaciones.md#evaluación-día-68).
 
 ---
 
 # Día 69 — Triage como estructura de datos, sin ejecutar respuesta activa
 
-**🎯 Objetivo:** Documentar triage como estructura de datos, sin ejecutar respuesta activa.
+**Objetivo de aprendizaje:** Documentar triage como estructura de datos, sin ejecutar respuesta activa.
 
-**📚 Teoría:** [Plantilla de ticket sintético](../labs/phase-04-log-analysis/triage-data-template.md), [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
+**Teoría y recurso:** [Plantilla de ticket sintético](../labs/phase-04-log-analysis/triage-data-template.md), [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Completar ticket con caso sintético.
-2. separar observación, hipótesis y campos faltantes/sobrantes.
+Completar ticket con caso sintético; separar observación, hipótesis y campos faltantes/sobrantes.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Documentar triage como estructura de datos, sin ejecutar respuesta activa.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Ticket rellenado, tabla de datos faltantes/sobrantes e informe breve.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Documentar triage como estructura de datos, sin ejecutar respuesta activa.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Completar ticket con caso sintético; separar observación, hipótesis y campos faltantes/sobrantes.
+- Puedes justificar la evidencia que guardas y qué demuestra: Ticket rellenado, tabla de datos faltantes/sobrantes e informe breve.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 69 (Triage como estructura de datos, sin ejecutar respuesta activa). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Completar ticket con caso sintético; separar observación, hipótesis y campos faltantes/sobrantes. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Ticket rellenado, tabla de datos faltantes/sobrantes e informe breve.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 69](evaluaciones.md#evaluación-día-69)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Ticket rellenado, tabla de datos faltantes/sobrantes e informe breve.
+> Actúa como mi tutor técnico para el Día 69. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Documentar triage como estructura de datos, sin ejecutar respuesta activa. La práctica es: Completar ticket con caso sintético; separar observación, hipótesis y campos faltantes/sobrantes. La evidencia que debo producir es: Ticket rellenado, tabla de datos faltantes/sobrantes e informe breve. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 69](evaluaciones.md#evaluación-día-69).
 
 ---
 
 # Día 70 — Resultados de análisis de datos de seguridad
 
-**🎯 Objetivo:** Presentar resultados de análisis de datos de seguridad.
+**Objetivo de aprendizaje:** Presentar resultados de análisis de datos de seguridad.
 
-**📚 Teoría:** Revisión de recursos de sesiones 53–69.
+**Teoría y recurso:** Revisión de recursos de sesiones 53–69.
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
 
-Herramientas: Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
+**Práctica guiada (35 min):**
 
-1. Resolver un caso de datos nuevo y justificar filtros, métricas y límites.
+Resolver un caso de datos nuevo y justificar filtros, métricas y límites.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Presentar resultados de análisis de datos de seguridad.
-- **Herramientas:** Python 3 + VS Code + archivos CSV; Wazuh Dashboard 4.9.0 cuando se consulte la alerta
-- **Evidencia verificable:** Paquete de consultas, tablas y reporte ejecutivo.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Presentar resultados de análisis de datos de seguridad.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resolver un caso de datos nuevo y justificar filtros, métricas y límites.
+- Puedes justificar la evidencia que guardas y qué demuestra: Paquete de consultas, tablas y reporte ejecutivo.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 70 (Resultados de análisis de datos de seguridad). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resolver un caso de datos nuevo y justificar filtros, métricas y límites. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Paquete de consultas, tablas y reporte ejecutivo.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 70](evaluaciones.md#evaluación-día-70)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Paquete de consultas, tablas y reporte ejecutivo.
+> Actúa como mi tutor técnico para el Día 70. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Presentar resultados de análisis de datos de seguridad. La práctica es: Resolver un caso de datos nuevo y justificar filtros, métricas y límites. La evidencia que debo producir es: Paquete de consultas, tablas y reporte ejecutivo. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 70](evaluaciones.md#evaluación-día-70).
 
 ---
 
 # Día 71 — Roles y responsabilidades de gobierno
 
-**🎯 Objetivo:** Definir roles y responsabilidades de gobierno.
+**Objetivo de aprendizaje:** Definir roles y responsabilidades de gobierno.
 
-**📚 Teoría:** [DAMA: overview](https://www.dama.org/cpages/body-of-knowledge)
+**Teoría y recurso:** [DAMA: overview](https://www.dama.org/cpages/body-of-knowledge)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Asignar roles propuestos a un flujo de datos ficticio.
+Asignar roles propuestos a un flujo de datos ficticio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Definir roles y responsabilidades de gobierno.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Matriz de roles y responsabilidades.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Definir roles y responsabilidades de gobierno.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Asignar roles propuestos a un flujo de datos ficticio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de roles y responsabilidades.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 71 (Roles y responsabilidades de gobierno). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Asignar roles propuestos a un flujo de datos ficticio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz de roles y responsabilidades.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 71](evaluaciones.md#evaluación-día-71)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz de roles y responsabilidades.
+> Actúa como mi tutor técnico para el Día 71. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Definir roles y responsabilidades de gobierno. La práctica es: Asignar roles propuestos a un flujo de datos ficticio. La evidencia que debo producir es: Matriz de roles y responsabilidades. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 71](evaluaciones.md#evaluación-día-71).
 
 ---
 
 # Día 72 — Inventario y clasificación de datos
 
-**🎯 Objetivo:** Crear inventario y clasificación de datos.
+**Objetivo de aprendizaje:** Crear inventario y clasificación de datos.
 
-**📚 Teoría:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+**Teoría y recurso:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Inventariar campos de PharmaTracker y clasificar sensibilidad/propósito.
+Inventariar campos de PharmaTracker y clasificar sensibilidad/propósito.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Crear inventario y clasificación de datos.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Inventario de datos.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Crear inventario y clasificación de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Inventariar campos de PharmaTracker y clasificar sensibilidad/propósito.
+- Puedes justificar la evidencia que guardas y qué demuestra: Inventario de datos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 72 (Inventario y clasificación de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Inventariar campos de PharmaTracker y clasificar sensibilidad/propósito. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Inventario de datos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 72](evaluaciones.md#evaluación-día-72)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Inventario de datos.
+> Actúa como mi tutor técnico para el Día 72. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Crear inventario y clasificación de datos. La práctica es: Inventariar campos de PharmaTracker y clasificar sensibilidad/propósito. La evidencia que debo producir es: Inventario de datos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 72](evaluaciones.md#evaluación-día-72).
 
 ---
 
 # Día 73 — Catálogo, metadatos y definiciones
 
-**🎯 Objetivo:** Documentar catálogo, metadatos y definiciones.
+**Objetivo de aprendizaje:** Documentar catálogo, metadatos y definiciones.
 
-**📚 Teoría:** [W3C: Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat-3/)
+**Teoría y recurso:** [W3C: Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat-3/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Crear ficha de dataset con propietario, frecuencia, formato y limitaciones.
+Crear ficha de dataset con propietario, frecuencia, formato y limitaciones.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Documentar catálogo, metadatos y definiciones.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Entrada de catálogo.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Documentar catálogo, metadatos y definiciones.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear ficha de dataset con propietario, frecuencia, formato y limitaciones.
+- Puedes justificar la evidencia que guardas y qué demuestra: Entrada de catálogo.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 73 (Catálogo, metadatos y definiciones). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear ficha de dataset con propietario, frecuencia, formato y limitaciones. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Entrada de catálogo.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 73](evaluaciones.md#evaluación-día-73)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Entrada de catálogo.
+> Actúa como mi tutor técnico para el Día 73. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Documentar catálogo, metadatos y definiciones. La práctica es: Crear ficha de dataset con propietario, frecuencia, formato y limitaciones. La evidencia que debo producir es: Entrada de catálogo. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 73](evaluaciones.md#evaluación-día-73).
 
 ---
 
-# Día 74 — Linaje desde origen hasta reporte
+# Día 74 — Trazar linaje desde origen hasta reporte
 
-**🎯 Objetivo:** Trazar linaje desde origen hasta reporte.
+**Objetivo de aprendizaje:** Trazar linaje desde origen hasta reporte.
 
-**📚 Teoría:** [OpenLineage](https://openlineage.io/docs/)
+**Teoría y recurso:** [OpenLineage](https://openlineage.io/docs/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Dibujar fuentes, transformaciones, almacenamiento y consumo analítico.
+Dibujar fuentes, transformaciones, almacenamiento y consumo analítico.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Trazar linaje desde origen hasta reporte.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Diagrama de linaje y puntos de control.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Trazar linaje desde origen hasta reporte.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Dibujar fuentes, transformaciones, almacenamiento y consumo analítico.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama de linaje y puntos de control.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 74 (Linaje desde origen hasta reporte). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Dibujar fuentes, transformaciones, almacenamiento y consumo analítico. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama de linaje y puntos de control.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 74](evaluaciones.md#evaluación-día-74)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama de linaje y puntos de control.
+> Actúa como mi tutor técnico para el Día 74. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Trazar linaje desde origen hasta reporte. La práctica es: Dibujar fuentes, transformaciones, almacenamiento y consumo analítico. La evidencia que debo producir es: Diagrama de linaje y puntos de control. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 74](evaluaciones.md#evaluación-día-74).
 
 ---
 
 # Día 75 — Reglas de calidad y aceptación
 
-**🎯 Objetivo:** Definir reglas de calidad y aceptación.
+**Objetivo de aprendizaje:** Definir reglas de calidad y aceptación.
 
-**📚 Teoría:** [Great Expectations](https://docs.greatexpectations.io/docs/core/introduction/)
+**Teoría y recurso:** [Great Expectations](https://docs.greatexpectations.io/docs/core/introduction/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Especificar umbrales y tratamiento de excepciones para observaciones de precio.
+Especificar umbrales y tratamiento de excepciones para observaciones de precio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Definir reglas de calidad y aceptación.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Catálogo de reglas y criterios de aceptación.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Definir reglas de calidad y aceptación.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Especificar umbrales y tratamiento de excepciones para observaciones de precio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Catálogo de reglas y criterios de aceptación.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 75 (Reglas de calidad y aceptación). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Especificar umbrales y tratamiento de excepciones para observaciones de precio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Catálogo de reglas y criterios de aceptación.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 75](evaluaciones.md#evaluación-día-75)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Catálogo de reglas y criterios de aceptación.
+> Actúa como mi tutor técnico para el Día 75. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Definir reglas de calidad y aceptación. La práctica es: Especificar umbrales y tratamiento de excepciones para observaciones de precio. La evidencia que debo producir es: Catálogo de reglas y criterios de aceptación. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 75](evaluaciones.md#evaluación-día-75).
 
 ---
 
 # Día 76 — Privacidad desde el diseño y minimización
 
-**🎯 Objetivo:** Aplicar privacidad desde el diseño y minimización.
+**Objetivo de aprendizaje:** Aplicar privacidad desde el diseño y minimización.
 
-**📚 Teoría:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+**Teoría y recurso:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Revisar campos y eliminar los que no aportan al propósito.
+Revisar campos y eliminar los que no aportan al propósito.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Aplicar privacidad desde el diseño y minimización.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Análisis de necesidad y minimización.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Aplicar privacidad desde el diseño y minimización.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Revisar campos y eliminar los que no aportan al propósito.
+- Puedes justificar la evidencia que guardas y qué demuestra: Análisis de necesidad y minimización.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 76 (Privacidad desde el diseño y minimización). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Revisar campos y eliminar los que no aportan al propósito. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Análisis de necesidad y minimización.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 76](evaluaciones.md#evaluación-día-76)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Análisis de necesidad y minimización.
+> Actúa como mi tutor técnico para el Día 76. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Aplicar privacidad desde el diseño y minimización. La práctica es: Revisar campos y eliminar los que no aportan al propósito. La evidencia que debo producir es: Análisis de necesidad y minimización. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 76](evaluaciones.md#evaluación-día-76).
 
 ---
 
 # Día 77 — Propósito, retención y eliminación
 
-**🎯 Objetivo:** Definir propósito, retención y eliminación.
+**Objetivo de aprendizaje:** Definir propósito, retención y eliminación.
 
-**📚 Teoría:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+**Teoría y recurso:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Proponer reglas de retención para datos sintéticos y documentar eliminación verificable.
+Proponer reglas de retención para datos sintéticos y documentar eliminación verificable.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Definir propósito, retención y eliminación.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Registro de retención propuesto.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Definir propósito, retención y eliminación.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Proponer reglas de retención para datos sintéticos y documentar eliminación verificable.
+- Puedes justificar la evidencia que guardas y qué demuestra: Registro de retención propuesto.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 77 (Propósito, retención y eliminación). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Proponer reglas de retención para datos sintéticos y documentar eliminación verificable. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Registro de retención propuesto.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 77](evaluaciones.md#evaluación-día-77)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Registro de retención propuesto.
+> Actúa como mi tutor técnico para el Día 77. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Definir propósito, retención y eliminación. La práctica es: Proponer reglas de retención para datos sintéticos y documentar eliminación verificable. La evidencia que debo producir es: Registro de retención propuesto. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 77](evaluaciones.md#evaluación-día-77).
 
 ---
 
 # Día 78 — Control de acceso y revisiones periódicas
 
-**🎯 Objetivo:** Diseñar control de acceso y revisiones periódicas.
+**Objetivo de aprendizaje:** Diseñar control de acceso y revisiones periódicas.
 
-**📚 Teoría:** [NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+**Teoría y recurso:** [NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Crear matriz de acceso por rol y frecuencia de revisión.
+Crear matriz de acceso por rol y frecuencia de revisión.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Diseñar control de acceso y revisiones periódicas.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Matriz de acceso y revisión.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Diseñar control de acceso y revisiones periódicas.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear matriz de acceso por rol y frecuencia de revisión.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de acceso y revisión.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 78 (Control de acceso y revisiones periódicas). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear matriz de acceso por rol y frecuencia de revisión. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz de acceso y revisión.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 78](evaluaciones.md#evaluación-día-78)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz de acceso y revisión.
+> Actúa como mi tutor técnico para el Día 78. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Diseñar control de acceso y revisiones periódicas. La práctica es: Crear matriz de acceso por rol y frecuencia de revisión. La evidencia que debo producir es: Matriz de acceso y revisión. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 78](evaluaciones.md#evaluación-día-78).
 
 ---
 
 # Día 79 — Registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos
 
-**🎯 Objetivo:** Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos.
+**Objetivo de aprendizaje:** Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos.
 
-**📚 Teoría:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
+**Teoría y recurso:** [NIST SP 800-92](https://csrc.nist.gov/pubs/sp/800/92/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Resumir volúmenes, periodos, categorías y calidad de registros de un caso ficticio.
+Resumir volúmenes, periodos, categorías y calidad de registros de un caso ficticio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Tabla analítica e informe de cobertura, sin procedimiento de respuesta.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resumir volúmenes, periodos, categorías y calidad de registros de un caso ficticio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla analítica e informe de cobertura, sin procedimiento de respuesta.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 79 (Registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resumir volúmenes, periodos, categorías y calidad de registros de un caso ficticio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla analítica e informe de cobertura, sin procedimiento de respuesta.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 79](evaluaciones.md#evaluación-día-79)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla analítica e informe de cobertura, sin procedimiento de respuesta.
+> Actúa como mi tutor técnico para el Día 79. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos. La práctica es: Resumir volúmenes, periodos, categorías y calidad de registros de un caso ficticio. La evidencia que debo producir es: Tabla analítica e informe de cobertura, sin procedimiento de respuesta. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 79](evaluaciones.md#evaluación-día-79).
 
 ---
 
 # Día 80 — Riesgo, impacto y evidencia de control
 
-**🎯 Objetivo:** Evaluar riesgo, impacto y evidencia de control.
+**Objetivo de aprendizaje:** Evaluar riesgo, impacto y evidencia de control.
 
-**📚 Teoría:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
+**Teoría y recurso:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Valorar riesgos del pipeline y distinguir control existente/propuesto.
+Valorar riesgos del pipeline y distinguir control existente/propuesto.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Evaluar riesgo, impacto y evidencia de control.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Registro de riesgos con riesgo residual.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Evaluar riesgo, impacto y evidencia de control.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Valorar riesgos del pipeline y distinguir control existente/propuesto.
+- Puedes justificar la evidencia que guardas y qué demuestra: Registro de riesgos con riesgo residual.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 80 (Riesgo, impacto y evidencia de control). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Valorar riesgos del pipeline y distinguir control existente/propuesto. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Registro de riesgos con riesgo residual.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 80](evaluaciones.md#evaluación-día-80)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Registro de riesgos con riesgo residual.
+> Actúa como mi tutor técnico para el Día 80. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Evaluar riesgo, impacto y evidencia de control. La práctica es: Valorar riesgos del pipeline y distinguir control existente/propuesto. La evidencia que debo producir es: Registro de riesgos con riesgo residual. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 80](evaluaciones.md#evaluación-día-80).
 
 ---
 
 # Día 81 — Metadatos y cobertura de políticas de datos
 
-**🎯 Objetivo:** Analizar metadatos y cobertura de políticas de datos.
+**Objetivo de aprendizaje:** Analizar metadatos y cobertura de políticas de datos.
 
-**📚 Teoría:** [NIST SP 800-12 Rev. 1](https://csrc.nist.gov/pubs/sp/800/12/r1/final)
+**Teoría y recurso:** [NIST SP 800-12 Rev. 1](https://csrc.nist.gov/pubs/sp/800/12/r1/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Clasificar registros sintéticos de políticas por propósito, propietario, versión y fecha de revisión.
+Clasificar registros sintéticos de políticas por propósito, propietario, versión y fecha de revisión.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Analizar metadatos y cobertura de políticas de datos.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Tabla de metadatos y reporte de cobertura.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Analizar metadatos y cobertura de políticas de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Clasificar registros sintéticos de políticas por propósito, propietario, versión y fecha de revisión.
+- Puedes justificar la evidencia que guardas y qué demuestra: Tabla de metadatos y reporte de cobertura.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 81 (Metadatos y cobertura de políticas de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Clasificar registros sintéticos de políticas por propósito, propietario, versión y fecha de revisión. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Tabla de metadatos y reporte de cobertura.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 81](evaluaciones.md#evaluación-día-81)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Tabla de metadatos y reporte de cobertura.
+> Actúa como mi tutor técnico para el Día 81. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Analizar metadatos y cobertura de políticas de datos. La práctica es: Clasificar registros sintéticos de políticas por propósito, propietario, versión y fecha de revisión. La evidencia que debo producir es: Tabla de metadatos y reporte de cobertura. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 81](evaluaciones.md#evaluación-día-81).
 
 ---
 
 # Día 82 — Fuentes y proveedores de datos
 
-**🎯 Objetivo:** Evaluar fuentes y proveedores de datos.
+**Objetivo de aprendizaje:** Evaluar fuentes y proveedores de datos.
 
-**📚 Teoría:** [NIST Cybersecurity Supply Chain Risk Management](https://csrc.nist.gov/projects/cyber-supply-chain-risk-management)
+**Teoría y recurso:** [NIST Cybersecurity Supply Chain Risk Management](https://csrc.nist.gov/projects/cyber-supply-chain-risk-management)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Puntuar permiso, confiabilidad, disponibilidad, límites y trazabilidad de fuentes.
+Puntuar permiso, confiabilidad, disponibilidad, límites y trazabilidad de fuentes.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Evaluar fuentes y proveedores de datos.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Matriz de evaluación de fuentes.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Evaluar fuentes y proveedores de datos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Puntuar permiso, confiabilidad, disponibilidad, límites y trazabilidad de fuentes.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de evaluación de fuentes.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 82 (Fuentes y proveedores de datos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Puntuar permiso, confiabilidad, disponibilidad, límites y trazabilidad de fuentes. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz de evaluación de fuentes.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 82](evaluaciones.md#evaluación-día-82)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz de evaluación de fuentes.
+> Actúa como mi tutor técnico para el Día 82. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Evaluar fuentes y proveedores de datos. La práctica es: Puntuar permiso, confiabilidad, disponibilidad, límites y trazabilidad de fuentes. La evidencia que debo producir es: Matriz de evaluación de fuentes. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 82](evaluaciones.md#evaluación-día-82).
 
 ---
 
 # Día 83 — Cumplimiento con límites explícitos
 
-**🎯 Objetivo:** Revisar cumplimiento con límites explícitos.
+**Objetivo de aprendizaje:** Revisar cumplimiento con límites explícitos.
 
-**📚 Teoría:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+**Teoría y recurso:** [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
 
-Herramientas: LibreOffice Calc + VS Code/editor Markdown + archivos CSV
+**Práctica guiada (35 min):**
 
-1. Crear checklist de preguntas y señalar qué requiere revisión legal especializada.
+Crear checklist de preguntas y señalar qué requiere revisión legal especializada.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Revisar cumplimiento con límites explícitos.
-- **Herramientas:** LibreOffice Calc + VS Code/editor Markdown + archivos CSV
-- **Evidencia verificable:** Checklist con exclusiones y pendientes.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Revisar cumplimiento con límites explícitos.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Crear checklist de preguntas y señalar qué requiere revisión legal especializada.
+- Puedes justificar la evidencia que guardas y qué demuestra: Checklist con exclusiones y pendientes.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 83 (Cumplimiento con límites explícitos). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Crear checklist de preguntas y señalar qué requiere revisión legal especializada. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Checklist con exclusiones y pendientes.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 83](evaluaciones.md#evaluación-día-83)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Checklist con exclusiones y pendientes.
+> Actúa como mi tutor técnico para el Día 83. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Revisar cumplimiento con límites explícitos. La práctica es: Crear checklist de preguntas y señalar qué requiere revisión legal especializada. La evidencia que debo producir es: Checklist con exclusiones y pendientes. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 83](evaluaciones.md#evaluación-día-83).
 
 ---
 
 # Día 84 — Arquitectura y alcance de PharmaTracker
 
-**🎯 Objetivo:** Definir arquitectura y alcance de PharmaTracker.
+**Objetivo de aprendizaje:** Definir arquitectura y alcance de PharmaTracker.
 
-**📚 Teoría:** [C4 model](https://c4model.com/)
+**Teoría y recurso:** [C4 model](https://c4model.com/)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
 
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Dibujar contexto, contenedores y flujos.
-2. separar implementado de propuesto.
+Dibujar contexto, contenedores y flujos; separar implementado de propuesto.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Definir arquitectura y alcance de PharmaTracker.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Diagrama de arquitectura y alcance.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Definir arquitectura y alcance de PharmaTracker.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Dibujar contexto, contenedores y flujos; separar implementado de propuesto.
+- Puedes justificar la evidencia que guardas y qué demuestra: Diagrama de arquitectura y alcance.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 84 (Arquitectura y alcance de PharmaTracker). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Dibujar contexto, contenedores y flujos; separar implementado de propuesto. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Diagrama de arquitectura y alcance.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 84](evaluaciones.md#evaluación-día-84)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Diagrama de arquitectura y alcance.
+> Actúa como mi tutor técnico para el Día 84. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Definir arquitectura y alcance de PharmaTracker. La práctica es: Dibujar contexto, contenedores y flujos; separar implementado de propuesto. La evidencia que debo producir es: Diagrama de arquitectura y alcance. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 84](evaluaciones.md#evaluación-día-84).
 
 ---
 
 # Día 85 — Controles de extracción y validación
 
-**🎯 Objetivo:** Documentar controles de extracción y validación.
+**Objetivo de aprendizaje:** Documentar controles de extracción y validación.
 
-**📚 Teoría:** [OWASP Input Validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+**Teoría y recurso:** [OWASP Input Validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
 
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Trazar controles de origen, formato, esquema, duplicados y errores.
+Trazar controles de origen, formato, esquema, duplicados y errores.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Documentar controles de extracción y validación.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Matriz de controles de extracción.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Documentar controles de extracción y validación.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Trazar controles de origen, formato, esquema, duplicados y errores.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de controles de extracción.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 85 (Controles de extracción y validación). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Trazar controles de origen, formato, esquema, duplicados y errores. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz de controles de extracción.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 85](evaluaciones.md#evaluación-día-85)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz de controles de extracción.
+> Actúa como mi tutor técnico para el Día 85. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Documentar controles de extracción y validación. La práctica es: Trazar controles de origen, formato, esquema, duplicados y errores. La evidencia que debo producir es: Matriz de controles de extracción. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 85](evaluaciones.md#evaluación-día-85).
 
 ---
 
 # Día 86 — La clasificación de campos de almacenamiento y metadatos de acceso
 
-**🎯 Objetivo:** Analizar la clasificación de campos de almacenamiento y metadatos de acceso.
+**Objetivo de aprendizaje:** Analizar la clasificación de campos de almacenamiento y metadatos de acceso.
 
-**📚 Teoría:** [GitHub: secure use](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions)
+**Teoría y recurso:** [GitHub: secure use](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
 
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Resumir campos sensibles, roles autorizados y atributos de trazabilidad en un conjunto ficticio.
+Resumir campos sensibles, roles autorizados y atributos de trazabilidad en un conjunto ficticio.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Analizar la clasificación de campos de almacenamiento y metadatos de acceso.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Matriz de campos/roles y reporte de exposición.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Analizar la clasificación de campos de almacenamiento y metadatos de acceso.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Resumir campos sensibles, roles autorizados y atributos de trazabilidad en un conjunto ficticio.
+- Puedes justificar la evidencia que guardas y qué demuestra: Matriz de campos/roles y reporte de exposición.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 86 (La clasificación de campos de almacenamiento y metadatos de acceso). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Resumir campos sensibles, roles autorizados y atributos de trazabilidad en un conjunto ficticio. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Matriz de campos/roles y reporte de exposición.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 86](evaluaciones.md#evaluación-día-86)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Matriz de campos/roles y reporte de exposición.
+> Actúa como mi tutor técnico para el Día 86. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Analizar la clasificación de campos de almacenamiento y metadatos de acceso. La práctica es: Resumir campos sensibles, roles autorizados y atributos de trazabilidad en un conjunto ficticio. La evidencia que debo producir es: Matriz de campos/roles y reporte de exposición. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 86](evaluaciones.md#evaluación-día-86).
 
 ---
 
 # Día 87 — Calidad, precios y trazabilidad
 
-**🎯 Objetivo:** Analizar calidad, precios y trazabilidad.
+**Objetivo de aprendizaje:** Analizar calidad, precios y trazabilidad.
 
-**📚 Teoría:** Revisión de sesiones 31–34 y 72–75.
+**Teoría y recurso:** Revisión de sesiones 31–34 y 72–75.
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
 
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Reconciliar observaciones sintéticas, cambios de precio y linaje.
+Reconciliar observaciones sintéticas, cambios de precio y linaje.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Analizar calidad, precios y trazabilidad.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Reporte analítico reproducible.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Analizar calidad, precios y trazabilidad.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Reconciliar observaciones sintéticas, cambios de precio y linaje.
+- Puedes justificar la evidencia que guardas y qué demuestra: Reporte analítico reproducible.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 87 (Calidad, precios y trazabilidad). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Reconciliar observaciones sintéticas, cambios de precio y linaje. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Reporte analítico reproducible.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 87](evaluaciones.md#evaluación-día-87)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Reporte analítico reproducible.
+> Actúa como mi tutor técnico para el Día 87. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Analizar calidad, precios y trazabilidad. La práctica es: Reconciliar observaciones sintéticas, cambios de precio y linaje. La evidencia que debo producir es: Reporte analítico reproducible. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
 
----
-
-# Día 88 — Reporte de riesgos y recomendaciones
-
-**🎯 Objetivo:** Elaborar reporte de riesgos y recomendaciones.
-
-**📚 Teoría:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
-
-**🛠️ Práctica Guiada:**
-
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-
-1. Priorizar riesgos y vincular cada recomendación con evidencia y responsable propuesto.
-
-**💡 Conceptos Clave:**
-
-- **Objetivo de aprendizaje:** Elaborar reporte de riesgos y recomendaciones.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Informe ejecutivo de riesgos.
-
-## 🏁 Evaluación y Evidencia
-
-**Paso 1: Copia este prompt en un Chat de IA:**
-
-> Actúa como mi Tutor Técnico. Estoy en el Día 88 (Reporte de riesgos y recomendaciones). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Priorizar riesgos y vincular cada recomendación con evidencia y responsable propuesto. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
-
-**Paso 2: Guarda tu evidencia:**
-
-👉 **[Ir a Evaluaciones Día 88](evaluaciones.md#evaluación-día-88)**
-
-Evidencia esperada según el plan: Informe ejecutivo de riesgos.
+**Registrar resultado:** [Evaluación del Día 87](evaluaciones.md#evaluación-día-87).
 
 ---
 
-# Día 89 — Repositorio y reproducibilidad
+# Día 88 — Elaborar reporte de riesgos y recomendaciones
 
-**🎯 Objetivo:** Auditar repositorio y reproducibilidad.
+**Objetivo de aprendizaje:** Elaborar reporte de riesgos y recomendaciones.
 
-**📚 Teoría:** [GitHub: secure repository](https://docs.github.com/en/code-security)
+**Teoría y recurso:** [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
 
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Verificar documentación, dependencias, secretos, pruebas y pasos de reproducción.
+Priorizar riesgos y vincular cada recomendación con evidencia y responsable propuesto.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Auditar repositorio y reproducibilidad.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Checklist de auditoría y lista de brechas.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Elaborar reporte de riesgos y recomendaciones.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Priorizar riesgos y vincular cada recomendación con evidencia y responsable propuesto.
+- Puedes justificar la evidencia que guardas y qué demuestra: Informe ejecutivo de riesgos.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 89 (Repositorio y reproducibilidad). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Verificar documentación, dependencias, secretos, pruebas y pasos de reproducción. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Informe ejecutivo de riesgos.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 89](evaluaciones.md#evaluación-día-89)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Checklist de auditoría y lista de brechas.
+> Actúa como mi tutor técnico para el Día 88. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Elaborar reporte de riesgos y recomendaciones. La práctica es: Priorizar riesgos y vincular cada recomendación con evidencia y responsable propuesto. La evidencia que debo producir es: Informe ejecutivo de riesgos. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 88](evaluaciones.md#evaluación-día-88).
+
+---
+
+# Día 89 — Auditar repositorio y reproducibilidad
+
+**Objetivo de aprendizaje:** Auditar repositorio y reproducibilidad.
+
+**Teoría y recurso:** [GitHub: secure repository](https://docs.github.com/en/code-security)
+
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+
+**Práctica guiada (35 min):**
+
+Verificar documentación, dependencias, secretos, pruebas y pasos de reproducción.
+
+**Ejercicio individual (15 min):**
+
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
+
+**Criterios de dominio:**
+
+- Puedes explicar con tus palabras el objetivo: Auditar repositorio y reproducibilidad.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Verificar documentación, dependencias, secretos, pruebas y pasos de reproducción.
+- Puedes justificar la evidencia que guardas y qué demuestra: Checklist de auditoría y lista de brechas.
+
+**Evidencia verificable:** Checklist de auditoría y lista de brechas.
+
+## Evaluación interactiva
+
+Copia este prompt en un chat de IA:
+
+> Actúa como mi tutor técnico para el Día 89. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Auditar repositorio y reproducibilidad. La práctica es: Verificar documentación, dependencias, secretos, pruebas y pasos de reproducción. La evidencia que debo producir es: Checklist de auditoría y lista de brechas. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 89](evaluaciones.md#evaluación-día-89).
 
 ---
 
 # Día 90 — Evaluación final y retrospectiva
 
-**🎯 Objetivo:** Presentar evaluación final y retrospectiva.
+**Objetivo de aprendizaje:** Presentar evaluación final y retrospectiva.
 
-**📚 Teoría:** Revisión de todas las fuentes relevantes.
+**Teoría y recurso:** Revisión de todas las fuentes relevantes.
 
-**🛠️ Práctica Guiada:**
+**Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
 
-Herramientas: VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
+**Práctica guiada (35 min):**
 
-1. Explicar arquitectura, controles, métricas, riesgos y límites ante preguntas nuevas.
+Explicar arquitectura, controles, métricas, riesgos y límites ante preguntas nuevas.
 
-**💡 Conceptos Clave:**
+**Ejercicio individual (15 min):**
 
-- **Objetivo de aprendizaje:** Presentar evaluación final y retrospectiva.
-- **Herramientas:** VS Code/editor Markdown + Git y GitHub; LibreOffice Calc para tablas cuando corresponda
-- **Evidencia verificable:** Paquete final, evaluación y plan de mejora.
+Repite el procedimiento con un segundo ejemplo o registro sintético distinto. No copies el primer resultado: documenta qué cambiaste, qué resultado esperabas y qué comprobaste. Si la práctica no permite crear un segundo caso, explica el mismo procedimiento con tus propias palabras y señala una limitación.
 
-## 🏁 Evaluación y Evidencia
+**Criterios de dominio:**
 
-**Paso 1: Copia este prompt en un Chat de IA:**
+- Puedes explicar con tus palabras el objetivo: Presentar evaluación final y retrospectiva.
+- Puedes ejecutar o describir la práctica sin omitir sus pasos principales: Explicar arquitectura, controles, métricas, riesgos y límites ante preguntas nuevas.
+- Puedes justificar la evidencia que guardas y qué demuestra: Paquete final, evaluación y plan de mejora.
 
-> Actúa como mi Tutor Técnico. Estoy en el Día 90 (Evaluación final y retrospectiva). Evalúame interactivamente: 1. Hazme 3 preguntas sobre los conceptos y el objetivo de esta sesión. 2. Plantea un escenario práctico basado en esta práctica: Explicar arquitectura, controles, métricas, riesgos y límites ante preguntas nuevas. y pídeme resolverlo. 3. Pídeme que explique el procedimiento paso a paso. Espera mis respuestas antes de avanzar. Al final, dame una nota del 1 al 10 y genera un bloque Markdown con mi feedback.
+**Evidencia verificable:** Paquete final, evaluación y plan de mejora.
 
-**Paso 2: Guarda tu evidencia:**
+## Evaluación interactiva
 
-👉 **[Ir a Evaluaciones Día 90](evaluaciones.md#evaluación-día-90)**
+Copia este prompt en un chat de IA:
 
-Evidencia esperada según el plan: Paquete final, evaluación y plan de mejora.
+> Actúa como mi tutor técnico para el Día 90. Evalúame de forma interactiva y espera mi respuesta antes de hacer la siguiente pregunta. El objetivo es: Presentar evaluación final y retrospectiva. La práctica es: Explicar arquitectura, controles, métricas, riesgos y límites ante preguntas nuevas. La evidencia que debo producir es: Paquete final, evaluación y plan de mejora. Haz lo siguiente: (1) formula tres preguntas distintas que comprueben los conceptos y decisiones concretas de este objetivo; (2) plantea un caso nuevo, con datos sintéticos, en el que deba aplicar la práctica; (3) pídeme que explique cómo comprobaría que mi evidencia es correcta y qué limitaciones tiene. No reveles las respuestas antes de que responda. Al final, califica de 1 a 10 usando estos criterios: comprensión del objetivo, aplicación correcta, justificación y calidad de la evidencia. Indica aciertos, errores concretos y qué debo repasar. No inventes herramientas ni requisitos que no aparecen en el plan de estudio.
+
+**Registrar resultado:** [Evaluación del Día 90](evaluaciones.md#evaluación-día-90).
 
 ---
-
-## Criterio general de aprobación
-
-Cada sesión requiere explicación con palabras propias, práctica realizada, evidencia verificable y preguntas de razonamiento. Si una parte no se completa, se registra como pendiente. No se inventan resultados ni se marca como aprobado por haber leído el material.
