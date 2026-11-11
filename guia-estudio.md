@@ -4,7 +4,7 @@ Esta guía desarrolla las 90 sesiones respetando el orden y el contenido operati
 
 ---
 
-# Día 01 — Cliente, servidor, solicitud, respuesta y ciclo HTTP
+# Día 01 — Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP
 
 **Objetivo de aprendizaje:** Explicar cliente, servidor, solicitud, respuesta y ciclo HTTP.
 
@@ -38,7 +38,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 02 — Métodos, códigos de estado y cabeceras frecuentes
+# Día 02 — Interpretar métodos, códigos de estado y cabeceras frecuentes
 
 **Objetivo de aprendizaje:** Interpretar métodos, códigos de estado y cabeceras frecuentes.
 
@@ -72,7 +72,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 03 — DNS y el recorrido básico de una solicitud web
+# Día 03 — Explicar DNS y el recorrido básico de una solicitud web
 
 **Objetivo de aprendizaje:** Explicar DNS y el recorrido básico de una solicitud web.
 
@@ -106,7 +106,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 04 — Identificación, autenticación y autorización
+# Día 04 — Diferenciar identificación, autenticación y autorización
 
 **Objetivo de aprendizaje:** Diferenciar identificación, autenticación y autorización.
 
@@ -140,7 +140,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 05 — Cookies, sesiones y autenticación en HTTP
+# Día 05 — Diferenciar cookies, sesiones y autenticación en HTTP
 
 **Objetivo de aprendizaje:** Diferenciar cookies, sesiones y autenticación en HTTP.
 
@@ -174,7 +174,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 06 — JSON y HTML como formatos de respuesta
+# Día 06 — Reconocer JSON y HTML como formatos de respuesta
 
 **Objetivo de aprendizaje:** Reconocer JSON y HTML como formatos de respuesta.
 
@@ -208,7 +208,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 07 — Tráfico web normal con DevTools y sintetizar la fase
+# Día 07 — Inspeccionar tráfico web normal con DevTools y sintetizar la fase
 
 **Objetivo de aprendizaje:** Inspeccionar tráfico web normal con DevTools y sintetizar la fase.
 
@@ -242,7 +242,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 08 — Tablas, filas, claves y relaciones SQL
+# Día 08 — Explicar tablas, filas, claves y relaciones SQL
 
 **Objetivo de aprendizaje:** Explicar tablas, filas, claves y relaciones SQL.
 
@@ -378,7 +378,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 12 — Consultas parametrizadas y separar código de datos
+# Día 12 — Aplicar consultas parametrizadas y separar código de datos
 
 **Objetivo de aprendizaje:** Aplicar consultas parametrizadas y separar código de datos.
 
@@ -412,7 +412,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 13 — Causa, impacto y prevención de SQL injection
+# Día 13 — Explicar causa, impacto y prevención de SQL injection
 
 **Objetivo de aprendizaje:** Explicar causa, impacto y prevención de SQL injection.
 
@@ -446,7 +446,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 14 — Y normalizar entradas de datos
+# Día 14 — Validar y normalizar entradas de datos
 
 **Objetivo de aprendizaje:** Validar y normalizar entradas de datos.
 
@@ -480,7 +480,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 15 — Mínimo privilegio en bases de datos
+# Día 15 — Aplicar mínimo privilegio en bases de datos
 
 **Objetivo de aprendizaje:** Aplicar mínimo privilegio en bases de datos.
 
@@ -514,7 +514,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 16 — Utilidad y riesgos de auditoría de consultas
+# Día 16 — Identificar utilidad y riesgos de auditoría de consultas
 
 **Objetivo de aprendizaje:** Identificar utilidad y riesgos de auditoría de consultas.
 
@@ -548,7 +548,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 17 — Un caso integrado de consultas seguras
+# Día 17 — Resolver un caso integrado de consultas seguras
 
 **Objetivo de aprendizaje:** Resolver un caso integrado de consultas seguras.
 
@@ -582,7 +582,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 18 — Los conocimientos de la fase 1
+# Día 18 — Demostrar los conocimientos de la fase 1
 
 **Objetivo de aprendizaje:** Demostrar los conocimientos de la fase 1.
 
@@ -616,7 +616,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 19 — Variables, tipos, condiciones y bucles en Python
+# Día 19 — Usar variables, tipos, condiciones y bucles en Python
 
 **Objetivo de aprendizaje:** Usar variables, tipos, condiciones y bucles en Python.
 
@@ -650,7 +650,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 20 — Funciones, módulos y manejar errores
+# Día 20 — Crear funciones, módulos y manejar errores
 
 **Objetivo de aprendizaje:** Crear funciones, módulos y manejar errores.
 
@@ -684,7 +684,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 21 — Y escribir CSV y JSON
+# Día 21 — Leer y escribir CSV y JSON
 
 **Objetivo de aprendizaje:** Leer y escribir CSV y JSON.
 
@@ -718,7 +718,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 22 — Tipos, nulos y duplicados con reglas explícitas
+# Día 22 — Limpiar tipos, nulos y duplicados con reglas explícitas
 
 **Objetivo de aprendizaje:** Limpiar tipos, nulos y duplicados con reglas explícitas.
 
@@ -752,7 +752,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 23 — Una API pública/autorizada con HTTP
+# Día 23 — Consumir una API pública/autorizada con HTTP
 
 **Objetivo de aprendizaje:** Consumir una API pública/autorizada con HTTP.
 
@@ -786,7 +786,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 24 — Paginación, límites y reintentos responsables
+# Día 24 — Manejar paginación, límites y reintentos responsables
 
 **Objetivo de aprendizaje:** Manejar paginación, límites y reintentos responsables.
 
@@ -820,7 +820,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 25 — Secretos y variables de entorno
+# Día 25 — Gestionar secretos y variables de entorno
 
 **Objetivo de aprendizaje:** Gestionar secretos y variables de entorno.
 
@@ -854,7 +854,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 26 — Esquemas y contratos de datos
+# Día 26 — Validar esquemas y contratos de datos
 
 **Objetivo de aprendizaje:** Validar esquemas y contratos de datos.
 
@@ -888,7 +888,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 27 — Logging estructurado sin datos sensibles
+# Día 27 — Implementar logging estructurado sin datos sensibles
 
 **Objetivo de aprendizaje:** Implementar logging estructurado sin datos sensibles.
 
@@ -922,7 +922,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 28 — Pruebas unitarias básicas
+# Día 28 — Escribir pruebas unitarias básicas
 
 **Objetivo de aprendizaje:** Escribir pruebas unitarias básicas.
 
@@ -956,7 +956,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 29 — Errores HTTP y respuestas inesperadas
+# Día 29 — Gestionar errores HTTP y respuestas inesperadas
 
 **Objetivo de aprendizaje:** Gestionar errores HTTP y respuestas inesperadas.
 
@@ -990,7 +990,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 30 — Linaje y trazabilidad
+# Día 30 — Documentar linaje y trazabilidad
 
 **Objetivo de aprendizaje:** Documentar linaje y trazabilidad.
 
@@ -1024,7 +1024,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 31 — Anomalías simples sin confundirlas con incidentes
+# Día 31 — Detectar anomalías simples sin confundirlas con incidentes
 
 **Objetivo de aprendizaje:** Detectar anomalías simples sin confundirlas con incidentes.
 
@@ -1058,7 +1058,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 32 — Completitud, validez y consistencia
+# Día 32 — Medir completitud, validez y consistencia
 
 **Objetivo de aprendizaje:** Medir completitud, validez y consistencia.
 
@@ -1092,7 +1092,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 33 — Integridad y deduplicación
+# Día 33 — Controlar integridad y deduplicación
 
 **Objetivo de aprendizaje:** Controlar integridad y deduplicación.
 
@@ -1126,7 +1126,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 34 — Pipeline pequeño para PharmaTracker
+# Día 34 — Construir pipeline pequeño para PharmaTracker
 
 **Objetivo de aprendizaje:** Construir pipeline pequeño para PharmaTracker.
 
@@ -1160,7 +1160,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 35 — Seguridad y calidad del pipeline
+# Día 35 — Revisar seguridad y calidad del pipeline
 
 **Objetivo de aprendizaje:** Revisar seguridad y calidad del pipeline.
 
@@ -1194,7 +1194,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 36 — Fase 2 y documentar resultados
+# Día 36 — Evaluar fase 2 y documentar resultados
 
 **Objetivo de aprendizaje:** Evaluar fase 2 y documentar resultados.
 
@@ -1228,7 +1228,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 37 — Granularidad y modelo dimensional
+# Día 37 — Definir granularidad y modelo dimensional
 
 **Objetivo de aprendizaje:** Definir granularidad y modelo dimensional.
 
@@ -1262,7 +1262,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 38 — Relaciones y cardinalidad correctamente
+# Día 38 — Configurar relaciones y cardinalidad correctamente
 
 **Objetivo de aprendizaje:** Configurar relaciones y cardinalidad correctamente.
 
@@ -1296,7 +1296,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 39 — Datos reproduciblemente con Power Query
+# Día 39 — Transformar datos reproduciblemente con Power Query
 
 **Objetivo de aprendizaje:** Transformar datos reproduciblemente con Power Query.
 
@@ -1330,7 +1330,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 40 — Medidas DAX y contexto de filtro
+# Día 40 — Comprender medidas DAX y contexto de filtro
 
 **Objetivo de aprendizaje:** Comprender medidas DAX y contexto de filtro.
 
@@ -1364,7 +1364,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 41 — Métricas de precios y variaciones
+# Día 41 — Calcular métricas de precios y variaciones
 
 **Objetivo de aprendizaje:** Calcular métricas de precios y variaciones.
 
@@ -1398,7 +1398,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 42 — Indicadores y detectar errores de calidad
+# Día 42 — Conciliar indicadores y detectar errores de calidad
 
 **Objetivo de aprendizaje:** Conciliar indicadores y detectar errores de calidad.
 
@@ -1432,7 +1432,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 43 — Páginas orientadas a preguntas analíticas
+# Día 43 — Diseñar páginas orientadas a preguntas analíticas
 
 **Objetivo de aprendizaje:** Diseñar páginas orientadas a preguntas analíticas.
 
@@ -1466,7 +1466,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 44 — Filtros, segmentadores y navegación
+# Día 44 — Usar filtros, segmentadores y navegación
 
 **Objetivo de aprendizaje:** Usar filtros, segmentadores y navegación.
 
@@ -1500,7 +1500,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 45 — Propósito y límites de RLS
+# Día 45 — Explicar propósito y límites de RLS
 
 **Objetivo de aprendizaje:** Explicar propósito y límites de RLS.
 
@@ -1534,7 +1534,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 46 — Mínimo acceso a informes y modelos
+# Día 46 — Aplicar mínimo acceso a informes y modelos
 
 **Objetivo de aprendizaje:** Aplicar mínimo acceso a informes y modelos.
 
@@ -1568,7 +1568,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 47 — Campos y reducir exposición
+# Día 47 — Clasificar campos y reducir exposición
 
 **Objetivo de aprendizaje:** Clasificar campos y reducir exposición.
 
@@ -1602,7 +1602,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 48 — Anonimización y seudonimización
+# Día 48 — Diferenciar anonimización y seudonimización
 
 **Objetivo de aprendizaje:** Diferenciar anonimización y seudonimización.
 
@@ -1636,7 +1636,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 49 — Riesgos de exportación y compartición
+# Día 49 — Evaluar riesgos de exportación y compartición
 
 **Objetivo de aprendizaje:** Evaluar riesgos de exportación y compartición.
 
@@ -1670,7 +1670,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 50 — Definiciones, medidas y propietarios
+# Día 50 — Documentar definiciones, medidas y propietarios
 
 **Objetivo de aprendizaje:** Documentar definiciones, medidas y propietarios.
 
@@ -1704,7 +1704,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 51 — Accesibilidad, claridad y usabilidad
+# Día 51 — Revisar accesibilidad, claridad y usabilidad
 
 **Objetivo de aprendizaje:** Revisar accesibilidad, claridad y usabilidad.
 
@@ -1738,7 +1738,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 52 — Fase 3 y revisar modelo
+# Día 52 — Evaluar fase 3 y revisar modelo
 
 **Objetivo de aprendizaje:** Evaluar fase 3 y revisar modelo.
 
@@ -1772,7 +1772,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 53 — Un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente
+# Día 53 — Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente
 
 **Objetivo de aprendizaje:** Clasificar un evento real de laboratorio con vocabulario MITRE ATT&CK, sin convertir la etiqueta en confirmación de incidente.
 
@@ -1806,7 +1806,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 54 — El mapeo log → técnica ATT&CK a partir de la alerta validada
+# Día 54 — Construir el mapeo log → técnica ATT&CK a partir de la alerta validada
 
 **Objetivo de aprendizaje:** Construir el mapeo log → técnica ATT&CK a partir de la alerta validada.
 
@@ -1908,7 +1908,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 57 — Calidad de los documentos de alerta Wazuh
+# Día 57 — Evaluar calidad de los documentos de alerta Wazuh
 
 **Objetivo de aprendizaje:** Evaluar calidad de los documentos de alerta Wazuh.
 
@@ -1942,7 +1942,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 58 — Dashboard de reporting sobre la alerta SSH y sus dimensiones
+# Día 58 — Construir dashboard de reporting sobre la alerta SSH y sus dimensiones
 
 **Objetivo de aprendizaje:** Construir dashboard de reporting sobre la alerta SSH y sus dimensiones.
 
@@ -2044,7 +2044,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 61 — Coincidencias y falsos positivos potenciales
+# Día 61 — Cuantificar coincidencias y falsos positivos potenciales
 
 **Objetivo de aprendizaje:** Cuantificar coincidencias y falsos positivos potenciales.
 
@@ -2112,7 +2112,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 63 — Secuencias temporales con claves disponibles
+# Día 63 — Analizar secuencias temporales con claves disponibles
 
 **Objetivo de aprendizaje:** Analizar secuencias temporales con claves disponibles.
 
@@ -2180,7 +2180,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 65 — Escenarios con criterios de impacto documentados
+# Día 65 — Comparar escenarios con criterios de impacto documentados
 
 **Objetivo de aprendizaje:** Comparar escenarios con criterios de impacto documentados.
 
@@ -2214,7 +2214,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 66 — La distribución y calidad de registros asociados a casos ficticios
+# Día 66 — Analizar la distribución y calidad de registros asociados a casos ficticios
 
 **Objetivo de aprendizaje:** Analizar la distribución y calidad de registros asociados a casos ficticios.
 
@@ -2248,7 +2248,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 67 — Periodos de conservación por tipo de dato
+# Día 67 — Comparar periodos de conservación por tipo de dato
 
 **Objetivo de aprendizaje:** Comparar periodos de conservación por tipo de dato.
 
@@ -2282,7 +2282,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 68 — Exposición de campos sensibles en registros
+# Día 68 — Medir exposición de campos sensibles en registros
 
 **Objetivo de aprendizaje:** Medir exposición de campos sensibles en registros.
 
@@ -2316,7 +2316,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 69 — Triage como estructura de datos, sin ejecutar respuesta activa
+# Día 69 — Documentar triage como estructura de datos, sin ejecutar respuesta activa
 
 **Objetivo de aprendizaje:** Documentar triage como estructura de datos, sin ejecutar respuesta activa.
 
@@ -2350,7 +2350,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 70 — Resultados de análisis de datos de seguridad
+# Día 70 — Presentar resultados de análisis de datos de seguridad
 
 **Objetivo de aprendizaje:** Presentar resultados de análisis de datos de seguridad.
 
@@ -2384,7 +2384,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 71 — Roles y responsabilidades de gobierno
+# Día 71 — Definir roles y responsabilidades de gobierno
 
 **Objetivo de aprendizaje:** Definir roles y responsabilidades de gobierno.
 
@@ -2418,7 +2418,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 72 — Inventario y clasificación de datos
+# Día 72 — Crear inventario y clasificación de datos
 
 **Objetivo de aprendizaje:** Crear inventario y clasificación de datos.
 
@@ -2452,7 +2452,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 73 — Catálogo, metadatos y definiciones
+# Día 73 — Documentar catálogo, metadatos y definiciones
 
 **Objetivo de aprendizaje:** Documentar catálogo, metadatos y definiciones.
 
@@ -2520,7 +2520,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 75 — Reglas de calidad y aceptación
+# Día 75 — Definir reglas de calidad y aceptación
 
 **Objetivo de aprendizaje:** Definir reglas de calidad y aceptación.
 
@@ -2554,7 +2554,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 76 — Privacidad desde el diseño y minimización
+# Día 76 — Aplicar privacidad desde el diseño y minimización
 
 **Objetivo de aprendizaje:** Aplicar privacidad desde el diseño y minimización.
 
@@ -2588,7 +2588,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 77 — Propósito, retención y eliminación
+# Día 77 — Definir propósito, retención y eliminación
 
 **Objetivo de aprendizaje:** Definir propósito, retención y eliminación.
 
@@ -2622,7 +2622,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 78 — Control de acceso y revisiones periódicas
+# Día 78 — Diseñar control de acceso y revisiones periódicas
 
 **Objetivo de aprendizaje:** Diseñar control de acceso y revisiones periódicas.
 
@@ -2656,7 +2656,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 79 — Registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos
+# Día 79 — Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos
 
 **Objetivo de aprendizaje:** Analizar registros sintéticos asociados a eventos de riesgo desde la perspectiva de datos.
 
@@ -2690,7 +2690,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 80 — Riesgo, impacto y evidencia de control
+# Día 80 — Evaluar riesgo, impacto y evidencia de control
 
 **Objetivo de aprendizaje:** Evaluar riesgo, impacto y evidencia de control.
 
@@ -2724,7 +2724,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 81 — Metadatos y cobertura de políticas de datos
+# Día 81 — Analizar metadatos y cobertura de políticas de datos
 
 **Objetivo de aprendizaje:** Analizar metadatos y cobertura de políticas de datos.
 
@@ -2758,7 +2758,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 82 — Fuentes y proveedores de datos
+# Día 82 — Evaluar fuentes y proveedores de datos
 
 **Objetivo de aprendizaje:** Evaluar fuentes y proveedores de datos.
 
@@ -2792,7 +2792,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 83 — Cumplimiento con límites explícitos
+# Día 83 — Revisar cumplimiento con límites explícitos
 
 **Objetivo de aprendizaje:** Revisar cumplimiento con límites explícitos.
 
@@ -2826,7 +2826,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 84 — Arquitectura y alcance de PharmaTracker
+# Día 84 — Definir arquitectura y alcance de PharmaTracker
 
 **Objetivo de aprendizaje:** Definir arquitectura y alcance de PharmaTracker.
 
@@ -2860,7 +2860,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 85 — Controles de extracción y validación
+# Día 85 — Documentar controles de extracción y validación
 
 **Objetivo de aprendizaje:** Documentar controles de extracción y validación.
 
@@ -2894,7 +2894,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 86 — La clasificación de campos de almacenamiento y metadatos de acceso
+# Día 86 — Analizar la clasificación de campos de almacenamiento y metadatos de acceso
 
 **Objetivo de aprendizaje:** Analizar la clasificación de campos de almacenamiento y metadatos de acceso.
 
@@ -2928,7 +2928,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 87 — Calidad, precios y trazabilidad
+# Día 87 — Analizar calidad, precios y trazabilidad
 
 **Objetivo de aprendizaje:** Analizar calidad, precios y trazabilidad.
 
@@ -3030,7 +3030,7 @@ Copia este prompt en un chat de IA:
 
 ---
 
-# Día 90 — Evaluación final y retrospectiva
+# Día 90 — Presentar evaluación final y retrospectiva
 
 **Objetivo de aprendizaje:** Presentar evaluación final y retrospectiva.
 
